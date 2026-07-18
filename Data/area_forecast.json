@@ -1,0 +1,1646 @@
+{
+    "doddakallasandra": {
+        "households": 8,
+        "rice_per_month": 68.55,
+        "milk_per_week": 19.669999999999998,
+        "vegetables": {
+            "Onion": 11.27,
+            "Tomato": 11.580000000000002,
+            "Carrot": 8.05,
+            "Potato": 7.5200000000000005,
+            "Beans": 5.88,
+            "Chilli": 8.049999999999999,
+            "Cauliflower": 2.05,
+            "Cabbage": 1.74,
+            "Okra": 0.87
+        },
+        "fruits": {
+            "Banana": 7.93,
+            "Apple": 4.48,
+            "Orange": 3.25,
+            "Grapes": 1.8,
+            "Watermelon": 2.1,
+            "Pomegranate": 2.77,
+            "Papaya": 2.68,
+            "Guava": 1.84,
+            "Mango": 0.53
+        },
+        "grains": {
+            "Rice": 68.55,
+            "Millets": 6.539999999999999,
+            "Ragi": 10.579999999999998,
+            "Wheat": 14.579999999999998,
+            "Jawar": 1.6,
+            "Barley": 0.94
+        },
+        "dairy": {
+            "Milk": 19.669999999999998,
+            "Curd": 10.2,
+            "Panner": 3.44,
+            "Ice Cream": 4.58
+        }
+    },
+    "koramangala": {
+        "households": 1,
+        "rice_per_month": 9.61,
+        "milk_per_week": 4.2,
+        "vegetables": {
+            "Onion": 1.83,
+            "Tomato": 1.59,
+            "Carrot": 1.22,
+            "Potato": 1.71,
+            "Beans": 1.22,
+            "Cabbage": 1.22,
+            "Drumstick": 1.22
+        },
+        "fruits": {
+            "Banana": 1.07,
+            "Apple": 0.86,
+            "Orange": 0.72,
+            "Papaya": 0.72,
+            "Guava": 0.72,
+            "Kiwi": 0.72
+        },
+        "grains": {
+            "Rice": 9.61,
+            "Millets": 2.0,
+            "Ragi": 2.0,
+            "Barley": 2.0
+        },
+        "dairy": {
+            "Milk": 4.2,
+            "Curd": 1.87,
+            "Panner": 1.33
+        }
+    },
+    "hsr": {
+        "households": 1,
+        "rice_per_month": 7.99,
+        "milk_per_week": 1.12,
+        "vegetables": {
+            "Onion": 1.02,
+            "Tomato": 0.88,
+            "Carrot": 0.68,
+            "Potato": 0.95,
+            "Brinjal": 0.68,
+            "Beans": 0.68,
+            "Cabbage": 0.68,
+            "Chilli": 0.68
+        },
+        "fruits": {
+            "Banana": 1.22,
+            "Apple": 0.97,
+            "Mango": 0.81
+        },
+        "grains": {
+            "Rice": 7.99,
+            "Millets": 1.25,
+            "Ragi": 1.25,
+            "Wheat": 1.25
+        },
+        "dairy": {
+            "Milk": 1.12,
+            "Curd": 0.93,
+            "Panner": 0.67,
+            "Ice Cream": 0.4
+        }
+    },
+    "vijayanagar": {
+        "households": 27,
+        "rice_per_month": 276.6700000000001,
+        "milk_per_week": 85.41999999999999,
+        "vegetables": {
+            "Onion": 39.84,
+            "Tomato": 36.920000000000016,
+            "Carrot": 26.560000000000002,
+            "Beans": 23.04,
+            "Cabbage": 13.95,
+            "Potato": 38.89000000000001,
+            "Drumstick": 12.469999999999999,
+            "Chilli": 17.679999999999996,
+            "Brinjal": 11.120000000000001,
+            "Cauliflower": 9.13,
+            "Okra": 8.51,
+            "Hagalkai": 0.95,
+            "Greens": 0.66,
+            "Chayote Squash": 0.92
+        },
+        "fruits": {
+            "Banana": 33.540000000000006,
+            "Apple": 16.150000000000002,
+            "Orange": 12.379999999999997,
+            "Papaya": 11.47,
+            "Watermelon": 9.820000000000002,
+            "Grapes": 7.990000000000001,
+            "Guava": 13.569999999999999,
+            "Mango": 1.36,
+            "Pomegranate": 8.42,
+            "Blue Berry": 0.67
+        },
+        "grains": {
+            "Rice": 276.6700000000001,
+            "Millets": 22.790000000000003,
+            "Wheat": 54.1,
+            "Maize": 18.37,
+            "Ragi": 32.669999999999995,
+            "Barley": 5.6499999999999995,
+            "Sorghum": 2.19,
+            "Jowar": 3.79
+        },
+        "dairy": {
+            "Milk": 85.41999999999999,
+            "Curd": 44.82,
+            "Panner": 18.490000000000002,
+            "Ice Cream": 6.489999999999999
+        }
+    },
+    "electronic city": {
+        "households": 6,
+        "rice_per_month": 46.66,
+        "milk_per_week": 16.080000000000002,
+        "vegetables": {
+            "Onion": 8.780000000000001,
+            "Tomato": 7.609999999999999,
+            "Carrot": 5.85,
+            "Potato": 8.2,
+            "Drumstick": 2.9,
+            "Chilli": 5.299999999999999,
+            "Beans": 2.7,
+            "Brinjal": 0.55,
+            "Bottle Guard": 0.55,
+            "Okra": 1.52
+        },
+        "fruits": {
+            "Banana": 6.91,
+            "Apple": 3.4699999999999998,
+            "Orange": 2.31,
+            "Papaya": 2.31,
+            "Watermelon": 1.4100000000000001,
+            "Pomegranate": 3.0,
+            "Guava": 1.71
+        },
+        "grains": {
+            "Rice": 46.66,
+            "Jawar": 2.18,
+            "Ragi": 7.82,
+            "Wheat": 8.5,
+            "Maize": 0.68,
+            "Millets": 4.0600000000000005,
+            "Jowar": 2.56,
+            "Sorghum": 0.68
+        },
+        "dairy": {
+            "Milk": 16.080000000000002,
+            "Curd": 8.85,
+            "Panner": 3.31,
+            "Ice Cream": 1.92
+        }
+    },
+    "marathahalli": {
+        "households": 1,
+        "rice_per_month": 8.0,
+        "milk_per_week": 1.71,
+        "vegetables": {
+            "Onion": 1.3,
+            "Tomato": 1.13,
+            "Potato": 1.22,
+            "Cabbage": 0.87,
+            "Drumstick": 0.87,
+            "Chilli": 0.87
+        },
+        "fruits": {
+            "Banana": 0.79,
+            "Apple": 0.63,
+            "Orange": 0.53,
+            "Grapes": 0.53,
+            "Watermelon": 0.53
+        },
+        "grains": {
+            "Rice": 8.0,
+            "Ragi": 1.25,
+            "Wheat": 1.25,
+            "Maize": 1.25
+        },
+        "dairy": {
+            "Milk": 1.71,
+            "Curd": 0.93,
+            "Panner": 0.67,
+            "Ice Cream": 0.4
+        }
+    },
+    "andrahalli": {
+        "households": 10,
+        "rice_per_month": 99.39,
+        "milk_per_week": 28.150000000000002,
+        "vegetables": {
+            "Onion": 11.23,
+            "Tomato": 9.709999999999999,
+            "Carrot": 7.500000000000001,
+            "Potato": 10.500000000000002,
+            "Brinjal": 3.6800000000000006,
+            "Beans": 5.66,
+            "Cauliflower": 3.6800000000000006,
+            "Cabbage": 3.6800000000000006,
+            "Okra": 5.430000000000001,
+            "Drumstick": 6.920000000000001,
+            "Chilli": 5.8100000000000005
+        },
+        "fruits": {
+            "Banana": 8.18,
+            "Apple": 6.56,
+            "Orange": 3.2499999999999996,
+            "Papaya": 3.2499999999999996,
+            "Grapes": 3.2499999999999996,
+            "Watermelon": 3.8499999999999996,
+            "Pomegranate": 2.27,
+            "Guava": 2.94,
+            "Strawberry": 0.67,
+            "Mango": 1.1300000000000001
+        },
+        "grains": {
+            "Rice": 99.39,
+            "Jawar": 1.07,
+            "Millets": 3.92,
+            "Ragi": 12.47,
+            "Wheat": 16.02,
+            "Maize": 3.9200000000000004,
+            "Barley": 4.27,
+            "Sorghum": 1.07,
+            "Jowar": 1.5
+        },
+        "dairy": {
+            "Milk": 28.150000000000002,
+            "Curd": 11.979999999999999,
+            "Panner": 6.7299999999999995,
+            "Ice Cream": 4.84
+        }
+    },
+    "bannerghatta road": {
+        "households": 2,
+        "rice_per_month": 18.15,
+        "milk_per_week": 8.52,
+        "vegetables": {
+            "Onion": 2.38,
+            "Tomato": 2.06,
+            "Carrot": 1.58,
+            "Potato": 2.22,
+            "Brinjal": 0.47,
+            "Beans": 0.47,
+            "Cauliflower": 0.47,
+            "Cabbage": 0.47,
+            "Okra": 0.47,
+            "Drumstick": 1.58,
+            "Chilli": 1.58,
+            "Zukkini": 0.47
+        },
+        "fruits": {
+            "Banana": 1.53,
+            "Apple": 1.22,
+            "Orange": 1.01,
+            "Papaya": 0.34,
+            "Grapes": 0.34,
+            "Watermelon": 1.01,
+            "Pomegranate": 0.34,
+            "Guava": 1.01
+        },
+        "grains": {
+            "Rice": 18.15,
+            "Millets": 2.35,
+            "Ragi": 2.35,
+            "Wheat": 2.35,
+            "Maize": 0.75,
+            "Barley": 0.75
+        },
+        "dairy": {
+            "Milk": 8.52,
+            "Curd": 2.12,
+            "Panner": 1.52,
+            "Ice Cream": 0.91
+        }
+    },
+    "sarjapur road": {
+        "households": 8,
+        "rice_per_month": 92.6,
+        "milk_per_week": 26.77,
+        "vegetables": {
+            "Onion": 10.52,
+            "Tomato": 9.12,
+            "Carrot": 4.99,
+            "Potato": 9.81,
+            "Brinjal": 4.3,
+            "Beans": 6.83,
+            "Cauliflower": 4.05,
+            "Cabbage": 6.14,
+            "Okra": 5.96,
+            "Drumstick": 2.04,
+            "Chilli": 4.13
+        },
+        "fruits": {
+            "Banana": 8.26,
+            "Apple": 5.64,
+            "Orange": 4.29,
+            "Papaya": 2.65,
+            "Grapes": 2.48,
+            "Watermelon": 4.29,
+            "Pomegranate": 2.48,
+            "Guava": 2.5700000000000003
+        },
+        "grains": {
+            "Rice": 92.6,
+            "Jawar": 4.82,
+            "Ragi": 9.01,
+            "Millets": 2.26,
+            "Wheat": 10.07,
+            "Maize": 2.26,
+            "Barley": 1.32,
+            "Sorghum": 2.26,
+            "Jowar": 0.25
+        },
+        "dairy": {
+            "Milk": 26.77,
+            "Curd": 11.469999999999999,
+            "Panner": 6.53,
+            "Ice Cream": 3.76
+        }
+    },
+    "btm": {
+        "households": 1,
+        "rice_per_month": 9.91,
+        "milk_per_week": 4.46,
+        "vegetables": {
+            "Onion": 2.08,
+            "Tomato": 1.81,
+            "Carrot": 1.39,
+            "Potato": 1.94,
+            "Beans": 1.39,
+            "Chilli": 1.39
+        },
+        "fruits": {
+            "Banana": 1.53,
+            "Apple": 1.23,
+            "Orange": 1.02,
+            "Watermelon": 1.02
+        },
+        "grains": {
+            "Rice": 9.91,
+            "Millets": 1.5,
+            "Ragi": 1.5,
+            "Wheat": 1.5,
+            "Maize": 1.5
+        },
+        "dairy": {
+            "Milk": 4.46,
+            "Curd": 1.49,
+            "Panner": 1.07,
+            "Ice Cream": 0.64
+        }
+    },
+    "nagarbhavi": {
+        "households": 7,
+        "rice_per_month": 71.22,
+        "milk_per_week": 25.29,
+        "vegetables": {
+            "Onion": 12.56,
+            "Tomato": 10.92,
+            "Carrot": 5.7700000000000005,
+            "Potato": 11.72,
+            "Brinjal": 3.5999999999999996,
+            "Chilli": 6.99,
+            "Beans": 5.6,
+            "Drumstick": 5.6,
+            "Cauliflower": 2.04,
+            "Cabbage": 1.6,
+            "Okra": 1.6
+        },
+        "fruits": {
+            "Banana": 7.9,
+            "Apple": 4.2299999999999995,
+            "Papaya": 4.42,
+            "Watermelon": 3.17,
+            "Pomegranate": 4.39,
+            "Orange": 2.21,
+            "Guava": 3.05,
+            "Grapes": 1.37,
+            "Mangos During Season": 0.87,
+            "Litchi": 0.5,
+            "Passionfruit": 0.5
+        },
+        "grains": {
+            "Rice": 71.22,
+            "Jawar": 1.5,
+            "Millets": 4.6,
+            "Ragi": 15.6,
+            "Wheat": 15.6,
+            "Jowar": 3.5
+        },
+        "dairy": {
+            "Milk": 25.29,
+            "Curd": 13.120000000000003,
+            "Panner": 4.800000000000001,
+            "Ice Cream": 0.64
+        }
+    },
+    "isro layout": {
+        "households": 2,
+        "rice_per_month": 16.79,
+        "milk_per_week": 6.890000000000001,
+        "vegetables": {
+            "Onion": 2.59,
+            "Tomato": 2.24,
+            "Carrot": 1.7200000000000002,
+            "Potato": 2.42,
+            "Cauliflower": 1.7200000000000002,
+            "Chilli": 1.11,
+            "Beans": 0.61,
+            "Cabbage": 0.61,
+            "Okra": 0.61,
+            "Drumstick": 0.61
+        },
+        "fruits": {
+            "Banana": 1.8,
+            "Apple": 1.44,
+            "Orange": 0.67,
+            "Pomegranate": 1.2000000000000002,
+            "Guava": 1.2000000000000002,
+            "Papaya": 0.53
+        },
+        "grains": {
+            "Rice": 16.79,
+            "Ragi": 3.15,
+            "Wheat": 3.15,
+            "Jowar": 0.75,
+            "Millets": 0.75,
+            "Barley": 0.75
+        },
+        "dairy": {
+            "Milk": 6.890000000000001,
+            "Curd": 2.12,
+            "Panner": 1.52,
+            "Ice Cream": 0.91
+        }
+    },
+    "hanumanthnagar": {
+        "households": 1,
+        "rice_per_month": 6.38,
+        "milk_per_week": 3.03,
+        "vegetables": {
+            "Onion": 0.6,
+            "Tomato": 0.52,
+            "Carrot": 0.4,
+            "Potato": 0.56,
+            "Chilli": 0.4
+        },
+        "fruits": {
+            "Banana": 0.38,
+            "Apple": 0.31,
+            "Orange": 0.26,
+            "Watermelon": 0.26
+        },
+        "grains": {
+            "Rice": 6.38,
+            "Millets": 0.5,
+            "Ragi": 0.5,
+            "Wheat": 0.5
+        },
+        "dairy": {
+            "Milk": 3.03,
+            "Curd": 0.37,
+            "Panner": 0.27,
+            "Ice Cream": 0.16
+        }
+    },
+    "r t nagar": {
+        "households": 1,
+        "rice_per_month": 6.84,
+        "milk_per_week": 2.05,
+        "vegetables": {
+            "Onion": 1.3,
+            "Tomato": 1.13,
+            "Potato": 1.22,
+            "Beans": 0.87,
+            "Drumstick": 0.87,
+            "Chilli": 0.87
+        },
+        "fruits": {
+            "Banana": 0.79,
+            "Apple": 0.63,
+            "Orange": 0.53,
+            "Papaya": 0.53,
+            "Guava": 0.53
+        },
+        "grains": {
+            "Rice": 6.84,
+            "Jowar": 0.75,
+            "Millets": 0.75,
+            "Wheat": 0.75,
+            "Maize": 0.75,
+            "Barley": 0.75
+        },
+        "dairy": {
+            "Milk": 2.05,
+            "Curd": 1.17,
+            "Panner": 0.83
+        }
+    },
+    "vasanthnagar": {
+        "households": 3,
+        "rice_per_month": 30.550000000000004,
+        "milk_per_week": 8.39,
+        "vegetables": {
+            "Onion": 4.25,
+            "Tomato": 8.5,
+            "Carrot": 1.22,
+            "Potato": 9.16,
+            "Cauliflower": 1.22,
+            "Okra": 1.22,
+            "Drumstick": 2.83,
+            "Beans": 1.61
+        },
+        "fruits": {
+            "Banana": 2.33,
+            "Apple": 1.87,
+            "Papaya": 1.56,
+            "Watermelon": 3.16,
+            "Pomegranate": 1.56,
+            "Guava": 0.72,
+            "Orange": 1.6,
+            "Grapes": 1.6
+        },
+        "grains": {
+            "Rice": 30.550000000000004,
+            "Ragi": 5.0,
+            "Wheat": 5.0,
+            "Barley": 2.0
+        },
+        "dairy": {
+            "Milk": 8.39,
+            "Curd": 6.930000000000001,
+            "Panner": 1.07,
+            "Ice Cream": 1.6
+        }
+    },
+    "anand nagar hebbal post": {
+        "households": 1,
+        "rice_per_month": 7.36,
+        "milk_per_week": 1.39,
+        "vegetables": {
+            "Onion": 1.3,
+            "Tomato": 1.13,
+            "Carrot": 0.87,
+            "Potato": 1.22,
+            "Beans": 0.87,
+            "Chilli": 0.87
+        },
+        "fruits": {
+            "Banana": 0.79,
+            "Apple": 0.63,
+            "Orange": 0.53,
+            "Papaya": 0.53,
+            "Pomegranate": 0.53
+        },
+        "grains": {
+            "Rice": 7.36,
+            "Ragi": 1.88,
+            "Wheat": 1.88
+        },
+        "dairy": {
+            "Milk": 1.39,
+            "Curd": 2.0
+        }
+    },
+    "singasandra": {
+        "households": 1,
+        "rice_per_month": 10.96,
+        "milk_per_week": 2.06,
+        "vegetables": {
+            "Onion": 2.6,
+            "Tomato": 2.26,
+            "Potato": 2.43,
+            "Beans": 1.74,
+            "Drumstick": 1.74,
+            "Chilli": 1.74
+        },
+        "fruits": {
+            "Banana": 1.58,
+            "Apple": 1.26,
+            "Orange": 1.05,
+            "Pomegranate": 1.05,
+            "Guava": 1.05
+        },
+        "grains": {
+            "Rice": 10.96,
+            "Millets": 1.5,
+            "Ragi": 1.5,
+            "Wheat": 1.5,
+            "Barley": 1.5,
+            "Sorghum": 1.5
+        },
+        "dairy": {
+            "Milk": 2.06,
+            "Curd": 1.87,
+            "Panner": 1.33,
+            "Ice Cream": 0.8
+        }
+    },
+    "rajajinagar": {
+        "households": 6,
+        "rice_per_month": 53.160000000000004,
+        "milk_per_week": 17.6,
+        "vegetables": {
+            "Onion": 8.120000000000001,
+            "Tomato": 5.109999999999999,
+            "Carrot": 5.41,
+            "Potato": 6.61,
+            "Chilli": 4.62,
+            "Brinjal": 1.7200000000000002,
+            "Beans": 1.7200000000000002,
+            "Cauliflower": 2.14,
+            "Cabbage": 2.32,
+            "Okra": 1.35,
+            "Drumstick": 2.14
+        },
+        "fruits": {
+            "Apple": 4.01,
+            "Orange": 2.99,
+            "Papaya": 2.32,
+            "Grapes": 1.7399999999999998,
+            "Watermelon": 3.16,
+            "Pomegranate": 1.7399999999999998,
+            "Banana": 2.46,
+            "Guava": 1.37
+        },
+        "grains": {
+            "Rice": 53.160000000000004,
+            "Wheat": 10.8,
+            "Ragi": 5.34,
+            "Millets": 3.84,
+            "Maize": 0.94,
+            "Sorghum": 0.94,
+            "Barley": 2.0,
+            "Jowar": 0.9
+        },
+        "dairy": {
+            "Milk": 17.6,
+            "Curd": 5.02,
+            "Panner": 7.02,
+            "Ice Cream": 1.15
+        }
+    },
+    "srinagar": {
+        "households": 2,
+        "rice_per_month": 19.11,
+        "milk_per_week": 6.8,
+        "vegetables": {
+            "Onion": 3.42,
+            "Tomato": 2.9699999999999998,
+            "Carrot": 2.29,
+            "Potato": 3.2,
+            "Cauliflower": 0.55,
+            "Cabbage": 0.55,
+            "Chilli": 2.29,
+            "Beans": 1.74
+        },
+        "fruits": {
+            "Banana": 0.57,
+            "Apple": 2.16,
+            "Orange": 0.38,
+            "Grapes": 0.38,
+            "Pomegranate": 0.38,
+            "Papaya": 1.43,
+            "Watermelon": 1.43,
+            "Kiwi": 1.43
+        },
+        "grains": {
+            "Rice": 19.11,
+            "Jowar": 0.68,
+            "Millets": 3.18,
+            "Ragi": 3.18,
+            "Wheat": 3.18
+        },
+        "dairy": {
+            "Milk": 6.8,
+            "Curd": 0.84,
+            "Panner": 3.1,
+            "Ice Cream": 1.5
+        }
+    },
+    "tavarekere": {
+        "households": 1,
+        "rice_per_month": 11.35,
+        "milk_per_week": 3.02,
+        "vegetables": {
+            "Onion": 2.04,
+            "Tomato": 1.77,
+            "Carrot": 1.36,
+            "Potato": 1.9,
+            "Beans": 1.36,
+            "Cauliflower": 1.36,
+            "Cabbage": 1.36,
+            "Chilli": 1.36
+        },
+        "fruits": {
+            "Banana": 1.17,
+            "Apple": 0.94,
+            "Orange": 0.78,
+            "Papaya": 0.78,
+            "Grapes": 0.78,
+            "Watermelon": 0.78,
+            "Pomegranate": 0.78
+        },
+        "grains": {
+            "Rice": 11.35,
+            "Jowar": 1.25,
+            "Millets": 1.25,
+            "Ragi": 1.25,
+            "Wheat": 1.25,
+            "Maize": 1.25,
+            "Barley": 1.25
+        },
+        "dairy": {
+            "Milk": 3.02,
+            "Curd": 1.87,
+            "Panner": 1.33,
+            "Ice Cream": 0.8
+        }
+    },
+    "sunkadkatte": {
+        "households": 1,
+        "rice_per_month": 10.1,
+        "milk_per_week": 4.56,
+        "vegetables": {
+            "Onion": 2.08,
+            "Tomato": 1.81,
+            "Carrot": 1.39,
+            "Potato": 1.94,
+            "Beans": 1.39,
+            "Chilli": 1.39
+        },
+        "fruits": {
+            "Banana": 1.26,
+            "Apple": 1.01,
+            "Papaya": 0.84,
+            "Grapes": 0.84,
+            "Pomegranate": 0.84
+        },
+        "grains": {
+            "Rice": 10.1,
+            "Ragi": 3.0,
+            "Wheat": 3.0
+        },
+        "dairy": {
+            "Milk": 4.56,
+            "Curd": 1.87,
+            "Panner": 1.33
+        }
+    },
+    "sahakarnagar": {
+        "households": 1,
+        "rice_per_month": 11.69,
+        "milk_per_week": 2.15,
+        "vegetables": {
+            "Tomato": 2.43,
+            "Carrot": 1.87,
+            "Potato": 2.61,
+            "Beans": 1.87,
+            "Cauliflower": 1.87,
+            "Chilli": 1.87
+        },
+        "fruits": {
+            "Banana": 1.03,
+            "Apple": 0.83,
+            "Orange": 0.69,
+            "Papaya": 0.69,
+            "Grapes": 0.69,
+            "Watermelon": 0.69,
+            "Pomegranate": 0.69,
+            "Guava": 0.69
+        },
+        "grains": {
+            "Rice": 11.69,
+            "Maize": 7.5
+        },
+        "dairy": {
+            "Milk": 2.15,
+            "Curd": 1.87,
+            "Panner": 1.33,
+            "Ice Cream": 0.8
+        }
+    },
+    "kaglipura": {
+        "households": 1,
+        "rice_per_month": 11.7,
+        "milk_per_week": 4.72,
+        "vegetables": {
+            "Onion": 1.84,
+            "Tomato": 1.59,
+            "Carrot": 1.23,
+            "Potato": 1.72,
+            "Brinjal": 1.23,
+            "Beans": 1.23,
+            "Okra": 1.23,
+            "Drumstick": 1.23,
+            "Chilli": 1.23
+        },
+        "fruits": {
+            "Banana": 1.58,
+            "Apple": 1.26,
+            "Orange": 1.05,
+            "Pomegranate": 1.05,
+            "Guava": 1.05
+        },
+        "grains": {
+            "Rice": 11.7,
+            "Jowar": 1.88,
+            "Millets": 1.88,
+            "Ragi": 1.88,
+            "Wheat": 1.88
+        },
+        "dairy": {
+            "Milk": 4.72,
+            "Curd": 2.33,
+            "Panner": 1.67
+        }
+    },
+    "chandhapura": {
+        "households": 1,
+        "rice_per_month": 6.69,
+        "milk_per_week": 3.32,
+        "vegetables": {
+            "Onion": 1.2,
+            "Tomato": 1.04,
+            "Carrot": 0.8,
+            "Okra": 0.8,
+            "Drumstick": 0.8,
+            "Chilli": 0.8,
+            "Cucumber": 0.8
+        },
+        "fruits": {
+            "Banana": 0.82,
+            "Orange": 0.55,
+            "Watermelon": 0.55,
+            "Pomegranate": 0.55,
+            "Guava": 0.55
+        },
+        "grains": {
+            "Rice": 6.69,
+            "Millets": 1.25,
+            "Ragi": 1.25,
+            "Wheat": 1.25
+        },
+        "dairy": {
+            "Milk": 3.32,
+            "Curd": 0.93,
+            "Panner": 0.67,
+            "Ice Cream": 0.4
+        }
+    },
+    "j p nagar": {
+        "households": 1,
+        "rice_per_month": 11.5,
+        "milk_per_week": 4.08,
+        "vegetables": {
+            "Tomato": 2.43,
+            "Carrot": 1.87,
+            "Potato": 2.61,
+            "Beans": 1.87,
+            "Okra": 1.87,
+            "Drumstick": 1.87
+        },
+        "fruits": {
+            "Banana": 1.03,
+            "Apple": 0.83,
+            "Grapes": 0.69,
+            "Watermelon": 0.69,
+            "Pomegranate": 0.69,
+            "Plum": 0.69,
+            "Lychee": 0.69,
+            "Jammun": 0.69
+        },
+        "grains": {
+            "Rice": 11.5,
+            "Ragi": 3.75,
+            "Maize": 3.75
+        },
+        "dairy": {
+            "Milk": 4.08,
+            "Curd": 2.33,
+            "Panner": 1.67
+        }
+    },
+    "kengeri": {
+        "households": 3,
+        "rice_per_month": 26.73,
+        "milk_per_week": 5.92,
+        "vegetables": {
+            "Brinjal": 6.93,
+            "Chilli": 7.8,
+            "Onion": 2.3200000000000003,
+            "Tomato": 2.01,
+            "Carrot": 1.55,
+            "Potato": 2.17,
+            "Beans": 1.55,
+            "Okra": 0.68
+        },
+        "fruits": {
+            "Banana": 5.42,
+            "Orange": 3.07,
+            "Watermelon": 1.2200000000000002,
+            "Guava": 1.2200000000000002,
+            "Papaya": 0.55,
+            "Grapes": 0.55
+        },
+        "grains": {
+            "Rice": 26.73,
+            "Maize": 7.5,
+            "Ragi": 1.88,
+            "Wheat": 5.63
+        },
+        "dairy": {
+            "Milk": 5.92,
+            "Ice Cream": 4.4,
+            "Curd": 2.1,
+            "Panner": 1.5
+        }
+    },
+    "jayanagar": {
+        "households": 1,
+        "rice_per_month": 6.19,
+        "milk_per_week": 1.73,
+        "vegetables": {
+            "Beans": 0.5,
+            "Cauliflower": 0.5,
+            "Okra": 0.5,
+            "Drumstick": 0.5,
+            "Bottle Gourd,": 0.5
+        },
+        "fruits": {
+            "Banana": 0.4,
+            "Grapes": 0.27,
+            "Mango": 0.27,
+            "Kiwi": 0.27
+        },
+        "grains": {
+            "Rice": 6.19,
+            "Wheat": 1.5
+        },
+        "dairy": {
+            "Milk": 1.73,
+            "Panner": 0.8
+        }
+    },
+    "batrayanpura": {
+        "households": 1,
+        "rice_per_month": 10.26,
+        "milk_per_week": 2.87,
+        "vegetables": {
+            "Onion": 1.67,
+            "Tomato": 1.44,
+            "Carrot": 1.11,
+            "Potato": 1.56,
+            "Beans": 1.11,
+            "Chilli": 1.11
+        },
+        "fruits": {
+            "Banana": 1.01,
+            "Apple": 0.81,
+            "Orange": 0.67,
+            "Watermelon": 0.67,
+            "Guava": 0.67
+        },
+        "grains": {
+            "Rice": 10.26
+        },
+        "dairy": {
+            "Milk": 2.87
+        }
+    },
+    "r r nagar": {
+        "households": 1,
+        "rice_per_month": 6.45,
+        "milk_per_week": 2.16,
+        "vegetables": {
+            "Onion": 0.52,
+            "Tomato": 0.45,
+            "Carrot": 0.35,
+            "Potato": 0.49,
+            "Beans": 0.35,
+            "Cauliflower": 0.35
+        },
+        "fruits": {
+            "Banana": 0.32,
+            "Apple": 0.25,
+            "Papaya": 0.21,
+            "Pomegranate": 0.21,
+            "Guava": 0.21
+        },
+        "grains": {
+            "Rice": 6.45,
+            "Ragi": 0.75,
+            "Wheat": 0.75
+        },
+        "dairy": {
+            "Milk": 2.16,
+            "Curd": 0.8
+        }
+    },
+    "nagadevanahalli": {
+        "households": 1,
+        "rice_per_month": 10.83,
+        "milk_per_week": 2.52,
+        "vegetables": {
+            "Onion": 1.07,
+            "Tomato": 0.93,
+            "Carrot": 0.71,
+            "Potato": 1.0,
+            "Brinjal": 0.71,
+            "Beans": 0.71,
+            "Cauliflower": 0.71,
+            "Cabbage": 0.71,
+            "Drumstick": 0.71,
+            "Chilli": 0.71
+        },
+        "fruits": {
+            "Banana": 0.75,
+            "Apple": 0.6,
+            "Orange": 0.5,
+            "Papaya": 0.5,
+            "Grapes": 0.5,
+            "Watermelon": 0.5,
+            "Guava": 0.5
+        },
+        "grains": {
+            "Rice": 10.83,
+            "Millets": 0.96,
+            "Ragi": 0.96,
+            "Wheat": 0.96,
+            "Barley": 0.96,
+            "Sorghum": 0.96
+        },
+        "dairy": {
+            "Milk": 2.52,
+            "Curd": 1.79,
+            "Ice Cream": 0.77
+        }
+    },
+    "banashankari": {
+        "households": 2,
+        "rice_per_month": 18.13,
+        "milk_per_week": 5.99,
+        "vegetables": {
+            "Onion": 2.48,
+            "Tomato": 2.15,
+            "Carrot": 1.65,
+            "Potato": 2.3200000000000003,
+            "Brinjal": 1.65,
+            "Drumstick": 0.87,
+            "Beans": 0.78,
+            "Cauliflower": 0.78,
+            "Cabbage": 0.78,
+            "Chilli": 0.78
+        },
+        "fruits": {
+            "Banana": 1.83,
+            "Orange": 1.2200000000000002,
+            "Grapes": 1.2200000000000002,
+            "Watermelon": 0.55,
+            "Pomegranate": 0.55,
+            "Apple": 0.81,
+            "Papaya": 0.67
+        },
+        "grains": {
+            "Rice": 18.13,
+            "Millets": 2.1399999999999997,
+            "Ragi": 2.1399999999999997,
+            "Wheat": 2.1399999999999997,
+            "Barley": 2.1399999999999997
+        },
+        "dairy": {
+            "Milk": 5.99,
+            "Curd": 2.36,
+            "Panner": 1.68,
+            "Ice Cream": 0.51
+        }
+    },
+    "jp nagar": {
+        "households": 2,
+        "rice_per_month": 22.3,
+        "milk_per_week": 6.87,
+        "vegetables": {
+            "Onion": 2.74,
+            "Tomato": 2.37,
+            "Potato": 2.56,
+            "Brinjal": 1.82,
+            "Drumstick": 1.82,
+            "Chilli": 1.82,
+            "Carrot": 0.71,
+            "Beans": 0.71,
+            "Cauliflower": 0.71,
+            "Cabbage": 0.71
+        },
+        "fruits": {
+            "Orange": 1.21,
+            "Papaya": 1.21,
+            "Grapes": 1.21,
+            "Watermelon": 1.21,
+            "Pomegranate": 1.21,
+            "Banana": 0.66,
+            "Apple": 0.53,
+            "Guava": 0.44
+        },
+        "grains": {
+            "Rice": 22.3,
+            "Ragi": 2.8,
+            "Wheat": 2.8,
+            "Barley": 2.8,
+            "Maize": 1.2
+        },
+        "dairy": {
+            "Milk": 6.87,
+            "Curd": 3.2800000000000002,
+            "Panner": 1.07,
+            "Ice Cream": 0.77
+        }
+    },
+    "vasanthanagar": {
+        "households": 1,
+        "rice_per_month": 10.07,
+        "milk_per_week": 4.94,
+        "vegetables": {
+            "Onion": 1.83,
+            "Tomato": 1.59,
+            "Carrot": 1.22,
+            "Potato": 1.71,
+            "Drumstick": 1.22,
+            "Chilli": 1.22,
+            "Peas": 1.22
+        },
+        "fruits": {
+            "Banana": 1.26,
+            "Apple": 1.01,
+            "Papaya": 0.84,
+            "Grapes": 0.84,
+            "Pomegranate": 0.84
+        },
+        "grains": {
+            "Rice": 10.07,
+            "Millets": 1.5,
+            "Ragi": 1.5,
+            "Wheat": 1.5,
+            "Maize": 1.5
+        },
+        "dairy": {
+            "Milk": 4.94,
+            "Curd": 1.49,
+            "Panner": 1.07,
+            "Ice Cream": 0.64
+        }
+    },
+    "padrayanapura": {
+        "households": 1,
+        "rice_per_month": 9.67,
+        "milk_per_week": 3.8,
+        "vegetables": {
+            "Onion": 2.08,
+            "Tomato": 1.81,
+            "Carrot": 1.39,
+            "Potato": 1.94,
+            "Beans": 1.39,
+            "Chilli": 1.39
+        },
+        "fruits": {
+            "Apple": 1.37,
+            "Orange": 1.14,
+            "Papaya": 1.14,
+            "Watermelon": 1.14
+        },
+        "grains": {
+            "Rice": 9.67,
+            "Ragi": 2.0,
+            "Wheat": 2.0,
+            "Barley": 2.0
+        },
+        "dairy": {
+            "Milk": 3.8,
+            "Curd": 1.49,
+            "Panner": 1.07,
+            "Ice Cream": 0.64
+        }
+    },
+    "haralur": {
+        "households": 1,
+        "rice_per_month": 12.01,
+        "milk_per_week": 4.08,
+        "vegetables": {
+            "Onion": 3.61,
+            "Tomato": 3.12,
+            "Carrot": 2.4,
+            "Potato": 3.37
+        },
+        "fruits": {
+            "Banana": 6.0
+        },
+        "grains": {
+            "Rice": 12.01,
+            "Ragi": 3.75,
+            "Wheat": 3.75
+        },
+        "dairy": {
+            "Milk": 4.08,
+            "Curd": 1.87,
+            "Panner": 1.33,
+            "Ice Cream": 0.8
+        }
+    },
+    "kaggalipura": {
+        "households": 1,
+        "rice_per_month": 11.5,
+        "milk_per_week": 4.52,
+        "vegetables": {
+            "Onion": 2.76,
+            "Tomato": 2.39,
+            "Carrot": 1.84,
+            "Beans": 1.84,
+            "Drumstick": 1.84,
+            "Chilli": 1.84
+        },
+        "fruits": {
+            "Banana": 1.34,
+            "Apple": 1.07,
+            "Orange": 0.9,
+            "Grapes": 0.9,
+            "Watermelon": 0.9,
+            "Guava": 0.9
+        },
+        "grains": {
+            "Rice": 11.5,
+            "Ragi": 1.88,
+            "Wheat": 1.88,
+            "Maize": 1.88,
+            "Barley": 1.88
+        },
+        "dairy": {
+            "Milk": 4.52,
+            "Curd": 4.0
+        }
+    },
+    "arehalli": {
+        "households": 1,
+        "rice_per_month": 9.65,
+        "milk_per_week": 4.69,
+        "vegetables": {
+            "Onion": 1.67,
+            "Tomato": 1.44,
+            "Carrot": 1.11,
+            "Potato": 1.56,
+            "Beans": 1.11,
+            "Okra": 1.11
+        },
+        "fruits": {
+            "Banana": 1.01,
+            "Apple": 0.81,
+            "Orange": 0.67,
+            "Pomegranate": 0.67,
+            "Guava": 0.67
+        },
+        "grains": {
+            "Rice": 9.65,
+            "Millets": 1.6,
+            "Ragi": 1.6,
+            "Wheat": 1.6
+        },
+        "dairy": {
+            "Milk": 4.69,
+            "Curd": 1.49,
+            "Panner": 1.07
+        }
+    },
+    "g m palya": {
+        "households": 1,
+        "rice_per_month": 9.68,
+        "milk_per_week": 1.98,
+        "vegetables": {
+            "Onion": 1.3,
+            "Tomato": 1.13,
+            "Carrot": 0.87,
+            "Potato": 1.22,
+            "Brinjal": 0.87,
+            "Chilli": 0.87
+        },
+        "fruits": {
+            "Banana": 0.79,
+            "Apple": 0.63,
+            "Orange": 0.53,
+            "Papaya": 0.53,
+            "Pomegranate": 0.53
+        },
+        "grains": {
+            "Rice": 9.68,
+            "Millets": 0.94,
+            "Ragi": 0.94,
+            "Wheat": 0.94,
+            "Maize": 0.94
+        },
+        "dairy": {
+            "Milk": 1.98,
+            "Curd": 2.0
+        }
+    },
+    "nayandhalli": {
+        "households": 1,
+        "rice_per_month": 10.56,
+        "milk_per_week": 3.74,
+        "vegetables": {
+            "Onion": 2.31,
+            "Tomato": 2.0,
+            "Potato": 2.15,
+            "Brinjal": 1.54
+        },
+        "fruits": {
+            "Apple": 1.1,
+            "Grapes": 0.91,
+            "Guava": 0.91,
+            "Plum Mango": 0.91
+        },
+        "grains": {
+            "Rice": 10.56,
+            "Wheat": 2.4,
+            "Barley": 2.4
+        },
+        "dairy": {
+            "Milk": 3.74,
+            "Curd": 1.49,
+            "Panner": 1.07
+        }
+    },
+    "basaweshwarnagar": {
+        "households": 1,
+        "rice_per_month": 10.37,
+        "milk_per_week": 1.6,
+        "vegetables": {
+            "Onion": 1.46,
+            "Tomato": 1.27,
+            "Carrot": 0.98,
+            "Potato": 1.37,
+            "Brinjal": 0.98,
+            "Beans": 0.98,
+            "Chilli": 0.98
+        },
+        "fruits": {
+            "Banana": 0.89,
+            "Orange": 0.59,
+            "Papaya": 0.59,
+            "Grapes": 0.59,
+            "Watermelon": 0.59,
+            "Pomegranate": 0.59
+        },
+        "grains": {
+            "Rice": 10.37,
+            "Millets": 1.6,
+            "Ragi": 1.6,
+            "Wheat": 1.6
+        },
+        "dairy": {
+            "Milk": 1.6,
+            "Curd": 1.19,
+            "Panner": 0.85,
+            "Ice Cream": 0.51
+        }
+    },
+    "rajarajeshwari nagar": {
+        "households": 1,
+        "rice_per_month": 11.39,
+        "milk_per_week": 4.03,
+        "vegetables": {
+            "Onion": 2.29,
+            "Tomato": 1.98,
+            "Potato": 2.13,
+            "Cauliflower": 1.52,
+            "Okra": 1.52,
+            "Drumstick": 1.52,
+            "Chilli": 1.52
+        },
+        "fruits": {
+            "Apple": 1.0,
+            "Orange": 0.83,
+            "Watermelon": 0.83,
+            "Pomegranate": 0.83,
+            "Guava": 0.83,
+            "Muskmelon": 0.83,
+            "Mango": 0.83
+        },
+        "grains": {
+            "Rice": 11.39,
+            "Millets": 3.75,
+            "Wheat": 3.75
+        },
+        "dairy": {
+            "Milk": 4.03,
+            "Panner": 2.5,
+            "Ice Cream": 1.5
+        }
+    },
+    "chandra layout": {
+        "households": 1,
+        "rice_per_month": 12.42,
+        "milk_per_week": 4.17,
+        "vegetables": {
+            "Tomato": 3.78,
+            "Beans": 2.91,
+            "Okra": 2.91,
+            "Peas": 2.91
+        },
+        "fruits": {
+            "Pomegranate": 2.0,
+            "Guava": 2.0,
+            "Mango": 2.0
+        },
+        "grains": {
+            "Rice": 12.42,
+            "Millets": 2.5,
+            "Ragi": 2.5,
+            "Wheat": 2.5
+        },
+        "dairy": {
+            "Milk": 4.17,
+            "Ice Cream": 4.0
+        }
+    },
+    "konanakunte cross": {
+        "households": 1,
+        "rice_per_month": 9.73,
+        "milk_per_week": 4.16,
+        "vegetables": {
+            "Onion": 2.07,
+            "Tomato": 1.79,
+            "Carrot": 1.38,
+            "Beans": 1.38,
+            "Chilli": 1.38
+        },
+        "fruits": {
+            "Banana": 1.56,
+            "Apple": 1.25,
+            "Pomegranate": 1.04
+        },
+        "grains": {
+            "Rice": 9.73,
+            "Ragi": 2.4,
+            "Wheat": 2.4
+        },
+        "dairy": {
+            "Milk": 4.16,
+            "Curd": 1.19,
+            "Panner": 0.85,
+            "Ice Cream": 0.51
+        }
+    },
+    "malleswaram": {
+        "households": 1,
+        "rice_per_month": 9.87,
+        "milk_per_week": 2.94,
+        "vegetables": {
+            "Onion": 1.46,
+            "Tomato": 1.27,
+            "Carrot": 0.98,
+            "Potato": 1.37,
+            "Beans": 0.98,
+            "Cabbage": 0.98,
+            "Chilli": 0.98
+        },
+        "fruits": {
+            "Banana": 1.01,
+            "Apple": 0.81,
+            "Orange": 0.67,
+            "Watermelon": 0.67,
+            "Guava": 0.67
+        },
+        "grains": {
+            "Rice": 9.87
+        },
+        "dairy": {
+            "Milk": 2.94,
+            "Curd": 1.79,
+            "Ice Cream": 0.77
+        }
+    },
+    "kormangala": {
+        "households": 1,
+        "rice_per_month": 10.18,
+        "milk_per_week": 1.8,
+        "vegetables": {
+            "Onion": 5.36,
+            "Tomato": 4.64
+        },
+        "fruits": {
+            "Banana": 1.95,
+            "Apple": 1.56,
+            "Papaya": 1.3
+        },
+        "grains": {
+            "Rice": 10.18,
+            "Wheat": 6.0
+        },
+        "dairy": {
+            "Milk": 1.8
+        }
+    },
+    "uttarahalli": {
+        "households": 1,
+        "rice_per_month": 10.23,
+        "milk_per_week": 4.73,
+        "vegetables": {
+            "Onion": 1.18,
+            "Tomato": 1.02,
+            "Carrot": 0.78,
+            "Potato": 1.1,
+            "Brinjal": 0.78,
+            "Beans": 0.78,
+            "Cabbage": 0.78,
+            "Drumstick": 0.78,
+            "Chilli": 0.78
+        },
+        "fruits": {
+            "Banana": 1.01,
+            "Apple": 0.81,
+            "Papaya": 0.67,
+            "Pomegranate": 0.67,
+            "Guava": 0.67
+        },
+        "grains": {
+            "Rice": 10.23,
+            "Jowar": 1.2,
+            "Millets": 1.2,
+            "Ragi": 1.2,
+            "Wheat": 1.2
+        },
+        "dairy": {
+            "Milk": 4.73,
+            "Curd": 1.79,
+            "Ice Cream": 0.77
+        }
+    },
+    "bannerghatta": {
+        "households": 1,
+        "rice_per_month": 6.94,
+        "milk_per_week": 1.42,
+        "vegetables": {
+            "Onion": 1.3,
+            "Tomato": 1.13,
+            "Carrot": 0.87,
+            "Potato": 1.22,
+            "Brinjal": 0.87,
+            "Beans": 0.87
+        },
+        "fruits": {
+            "Banana": 0.79,
+            "Apple": 0.63,
+            "Orange": 0.53,
+            "Papaya": 0.53,
+            "Grapes": 0.53
+        },
+        "grains": {
+            "Rice": 6.94
+        },
+        "dairy": {
+            "Milk": 1.42,
+            "Ice Cream": 2.0
+        }
+    },
+    "jp nagar 8th phase": {
+        "households": 1,
+        "rice_per_month": 10.29,
+        "milk_per_week": 4.11,
+        "vegetables": {
+            "Onion": 1.47,
+            "Tomato": 1.27,
+            "Carrot": 0.98,
+            "Potato": 1.37,
+            "Brinjal": 0.98,
+            "Beans": 0.98,
+            "Cauliflower": 0.98,
+            "Cabbage": 0.98,
+            "Chilli": 0.98
+        },
+        "fruits": {
+            "Banana": 1.26,
+            "Apple": 1.01,
+            "Orange": 0.84,
+            "Watermelon": 0.84,
+            "Pomegranate": 0.84
+        },
+        "grains": {
+            "Rice": 10.29,
+            "Jowar": 1.0,
+            "Millets": 1.0,
+            "Ragi": 1.0,
+            "Wheat": 1.0,
+            "Maize": 1.0,
+            "Barley": 1.0
+        },
+        "dairy": {
+            "Milk": 4.11,
+            "Curd": 1.49,
+            "Panner": 1.07,
+            "Ice Cream": 0.64
+        }
+    }
+}

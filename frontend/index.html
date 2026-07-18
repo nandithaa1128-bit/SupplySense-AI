@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupplySense AI · Grocery Demand Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <!-- ================= WELCOME / SCREEN 1 ================= -->
+  <section class="screen active" id="scr-welcome">
+    <div class="hero-layout">
+      <div class="hero">
+        <div class="mark">
+          <div class="mark-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2C12 2 7 6.5 7 11.5C7 14.5 9 17 12 17C15 17 17 14.5 17 11.5C17 6.5 12 2 12 2Z" stroke="#E3F4E8" stroke-width="1.6"/>
+              <path d="M12 17V22" stroke="#E3F4E8" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="mark-name">SupplySense AI</span>
+        </div>
+        <h1>Grocery <em>demand</em>,<br>predicted before<br>the shelf runs dry.</h1>
+        <p class="tagline">Predict household food consumption and help suppliers maintain optimal inventory — one street at a time.</p>
+
+        <div class="cta-row" id="welcome-ctas">
+          <button class="btn btn-primary" id="btn-get-started">Get started</button>
+          <button class="btn btn-ghost" id="btn-admin-login">Admin login</button>
+        </div>
+      </div>
+      <div class="hero-illustration">
+        <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="50" y="80" width="400" height="280" rx="26" fill="white" fill-opacity="0.6" stroke="#E4E0D4" stroke-width="2"/>
+          <path d="M90 310 L170 240 L250 270 L330 180 L410 220" stroke="#2E6B4C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="410" cy="220" r="8" fill="#C08A28"/>
+          <rect x="90" y="120" width="60" height="20" rx="4" fill="#9FD8B4" fill-opacity="0.4"/>
+          <rect x="170" y="120" width="80" height="20" rx="4" fill="#E4E0D4"/>
+          <rect x="90" y="160" width="120" height="30" rx="6" fill="#173226"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN 1B: IDENTITY (own screen) ================= -->
+  <section class="screen" id="scr-identity">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-welcome')">←</button>
+      <span class="step-label">Step 0/6</span>
+    </div>
+    <h2 class="screen-title">Tell us who you are</h2>
+    <p class="screen-sub">We'll link this to your locality's supply data.</p>
+    <div class="form-grid" id="identity-fields">
+      <div class="field">
+        <label for="f-house">House number</label>
+        <input type="text" id="f-house" placeholder="e.g. 24/A">
+      </div>
+      <div class="field">
+        <label for="f-name">Full name</label>
+        <input type="text" id="f-name" placeholder="e.g. Nanditha Arvind">
+      </div>
+      <div class="field">
+        <label for="f-phone">Phone number</label>
+        <input type="tel" id="f-phone" placeholder="10-digit mobile number" maxlength="10">
+      </div>
+      <div class="field">
+        <label for="f-locality">Locality</label>
+        <input type="text" id="f-locality" placeholder="e.g. Vijayanagar">
+      </div>
+    </div>
+    <div class="footer-nav">
+      <button class="btn btn-ghost" onclick="goTo('scr-welcome')">Back</button>
+      <button class="btn btn-primary" id="btn-continue-identity">Continue</button>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN 2: HOUSEHOLD ================= -->
+  <section class="screen" id="scr-2">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-identity')">←</button>
+      <div class="stalk-wrap" id="stalk-wrap"></div>
+      <span class="step-label" id="step-label">Step 1/6</span>
+    </div>
+    <h2 class="screen-title">Household profile</h2>
+    <p class="screen-sub">A little about the people you're cooking for.</p>
+
+    <div class="form-grid">
+      <div class="field">
+        <label for="f-family">Family size</label>
+        <select id="f-family">
+          <option value="">Select family size</option>
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>6+</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-diet">Diet type</label>
+        <select id="f-diet">
+          <option value="">Select diet type</option>
+          <option>Vegetarian</option><option>Non Vegetarian</option><option>Eggetarian</option><option>Vegan</option><option>Pescatarian</option><option>Jain</option><option>Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="subgroup hidden" id="meat-days-group">
+      <div class="subgroup-title">Which days do you eat meat?</div>
+      <div class="day-grid" id="day-grid"></div>
+    </div>
+
+    <div class="footer-nav">
+      <button class="btn btn-ghost" onclick="goTo('scr-welcome')">Back</button>
+      <button class="btn btn-primary" id="btn-s2-next">Continue</button>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN 3: GROCERY & PRODUCE ================= -->
+  <section class="screen" id="scr-3">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-2')">←</button>
+      <div class="stalk-wrap" id="stalk-wrap-3"></div>
+      <span class="step-label">Step 2/6</span>
+    </div>
+    <h2 class="screen-title">Fresh produce & grains</h2>
+    <p class="screen-sub">Pick what regularly shows up in your kitchen.</p>
+
+    <div class="section-title">Vegetables</div>
+    <div class="counter-badge"><b id="veg-count">0</b> selected</div>
+    <div class="pill-grid" id="veg-grid"></div>
+
+    <div class="section-title">Fruits</div>
+    <div class="counter-badge"><b id="fruit-count">0</b> selected</div>
+    <div class="pill-grid" id="fruit-grid"></div>
+
+    <div class="section-title">Food grains</div>
+    <div class="pill-grid" id="grain-grid"></div>
+
+    <div class="footer-nav">
+      <button class="btn btn-ghost" onclick="goTo('scr-2')">Back</button>
+      <button class="btn btn-primary" id="btn-s3-next">Continue</button>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN 4: RICE & DAIRY ================= -->
+  <section class="screen" id="scr-4">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-3')">←</button>
+      <div class="stalk-wrap" id="stalk-wrap-4"></div>
+      <span class="step-label">Step 3/6</span>
+    </div>
+    <h2 class="screen-title">Rice & dairy deep dive</h2>
+    <p class="screen-sub">The two staples suppliers watch most closely.</p>
+      
+    <div class="section-title hidden" id="rice-type-title">Which type of rice?</div>
+    <div class="pill-grid" id="rice-type-grid"></div>
+
+    <div class="section-title">Dairy products</div>
+    <div class="pill-grid" id="dairy-grid"></div>
+
+    <div class="footer-nav">
+      <button class="btn btn-ghost" onclick="goTo('scr-3')">Back</button>
+      <button class="btn btn-primary" onclick="goTo('scr-5')">Continue</button>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN 5: QUANTITATIVE ================= -->
+  <section class="screen" id="scr-5">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-4')">←</button>
+      <div class="stalk-wrap" id="stalk-wrap-5"></div>
+      <span class="step-label">Step 4/6</span>
+    </div>
+    <h2 class="screen-title">How much do you use?</h2>
+    <p class="screen-sub">Rough estimates are perfectly fine.</p>
+
+    <div class="section-title">Daily rice consumption</div>
+    <div class="radio-list" id="daily-rice-list"></div>
+
+    <div class="section-title">Monthly rice consumption</div>
+    <div class="radio-list" id="monthly-rice-list"></div>
+
+    <div class="section-title">Weekly milk consumption</div>
+    <div class="radio-list" id="weekly-milk-list"></div>
+
+    <div class="footer-nav">
+      <button class="btn btn-ghost" onclick="goTo('scr-4')">Back</button>
+      <button class="btn btn-primary" id="btn-s5-next">Continue</button>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN 6: PURCHASING ================= -->
+  <section class="screen" id="scr-6">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-5')">←</button>
+      <div class="stalk-wrap" id="stalk-wrap-6"></div>
+      <span class="step-label">Step 5/6</span>
+    </div>
+    <h2 class="screen-title">Where & how often</h2>
+    <p class="screen-sub">This tells suppliers where demand is heading.</p>
+
+    <div class="section-title">Primary grocery source</div>
+    <div class="radio-list" id="source-list"></div>
+
+    <div class="section-title">Vegetable purchase frequency</div>
+    <div class="radio-list" id="veg-freq-list"></div>
+
+    <div class="section-title">Grocery purchase frequency</div>
+    <div class="radio-list" id="grocery-freq-list"></div>
+
+    <div class="footer-nav">
+      <button class="btn btn-ghost" onclick="goTo('scr-5')">Back</button>
+      <button class="btn btn-primary" id="btn-s6-next">Generate prediction</button>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN 7: RESULT ================= -->
+  <section class="screen" id="scr-7">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-6')">←</button>
+      <div class="stalk-wrap" id="stalk-wrap-7"></div>
+      <span class="step-label">Step 6/6</span>
+    </div>
+    <h2 class="screen-title">Your demand profile</h2>
+    <p class="screen-sub">This is what your household adds to the supply chain, annualized.</p>
+
+    <div class="prediction-grid">
+      <div class="prediction-column">
+        <div class="result-card">
+          <div class="rc-item"><div class="rc-label">Monthly Rice</div><div class="rc-value" id="res-monthly-rice">—</div></div>
+          <div class="rc-item"><div class="rc-label">Weekly Milk</div><div class="rc-value" id="res-weekly-milk">—</div></div>
+          <div class="rc-item"><div class="rc-label">Vegetable Frequency</div><div class="rc-value" id="res-veg-freq">—</div></div>
+          <div class="rc-item"><div class="rc-label">Grocery Frequency</div><div class="rc-value" id="res-grocery-freq">—</div></div>
+        </div>
+      </div>
+      <div class="prediction-column">
+        <div class="result-card">
+          <div class="rc-item"><div class="rc-label">Supplier</div><div class="rc-value" id="res-supplier">—</div></div>
+          <div class="rc-item"><div class="rc-label">Warehouse</div><div class="rc-value" id="res-warehouse">—</div></div>
+          <div class="rc-item"><div class="rc-label">ETA</div><div class="rc-value" id="res-eta">—</div></div>
+          <div class="rc-item"><div class="rc-label">Status</div><div class="rc-value" id="res-status">—</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-card" id="summary-card"></div>
+
+    <div class="footer-nav">
+      <button class="btn btn-ghost" onclick="resetApp()">Start over</button>
+      <button class="btn btn-primary" onclick="goTo('scr-welcome')">Done</button>
+    </div>
+  </section>
+
+  <!-- ================= ADMIN LOGIN ================= -->
+  <section class="screen" id="scr-admin-login">
+    <div class="topbar">
+      <button class="back-btn" onclick="goTo('scr-welcome')">←</button>
+      <span class="step-label">Admin access</span>
+    </div>
+    <div class="login-card">
+      <h2 style="font-size:24px;">Supplier dashboard</h2>
+      <p class="screen-sub" style="margin-bottom:20px;">Sign in to view demand intelligence across localities.</p>
+      <div class="form-grid">
+        <div class="field">
+          <label for="admin-user">Username</label>
+          <input type="text" id="admin-user">
+        </div>
+        <div class="field">
+          <label for="admin-pass">Password</label>
+          <input type="password" id="admin-pass">
+        </div>
+      </div>
+      <p class="err-text" id="admin-err">Incorrect username or password. Try admin123 / admin123.</p>
+      <button class="btn btn-primary" style="margin-top:20px;" id="btn-admin-submit">Sign in</button>
+    </div>
+  </section>
+
+  <!-- ================= ADMIN DASHBOARD ================= -->
+  <section class="screen" id="scr-dashboard">
+    <div class="dash-header">
+      <div>
+        <div class="step-label" style="margin-bottom:2px;">Supplier console</div>
+        <h2 class="dash-title">Demand overview</h2>
+      </div>
+      <button class="logout-btn" onclick="goTo('scr-welcome')">Log out</button>
+    </div>
+
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <div class="dash-section">
+      <h3>Zone-wise inventory vs. predicted demand</h3>
+      <table class="demand-table" id="demand-table"></table>
+    </div>
+
+    <div class="dash-section" style="padding-bottom:40px;">
+      <h3>AI inventory recommendations</h3>
+      <div id="alerts-list"></div>
+    </div>
+  </section>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/script.js?v=2"></script>
+</body>
+</html>

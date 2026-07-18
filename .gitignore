@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Models
+*.pkl
+
+# Data
+Data/cleaned_dataset.csv
+Data/featured_engineering_dataset.csv
+Data/final_supply_chain_supplier_inventory.xlsx
+Data/inventory_report.json
+
+# Virtual Environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Anaconda
+anaconda_projects/
