@@ -14,6 +14,8 @@ The application consists of two modules:
 
 - **User Module** – Predicts household grocery consumption.
 - **Admin Module** – Monitors demand, inventory, supplier allocation, and delivery planning.
+- <img width="941" height="406" alt="{62341A7D-1CC3-4849-8DA7-43ECADEE5A6F}" src="https://github.com/user-attachments/assets/4c72ef18-7da8-4473-892d-75f51da1a870" />
+
 
 ---
 
@@ -30,6 +32,20 @@ The application consists of two modules:
 - Supplier allocation
 - Warehouse allocation
 - Estimated delivery schedule
+- <img width="930" height="381" alt="{674E5E26-B3EC-4242-9AAA-13229FE14842}" src="https://github.com/user-attachments/assets/801936ac-201b-4b08-aba4-5561fdce544f" />
+<img width="870" height="375" alt="{F7F4936E-258B-482C-922E-487C05EDF23E}" src="https://github.com/user-attachments/assets/8f65f356-4d22-447b-92b3-1e90c8d9bc32" />
+<img width="440" height="336" alt="{6544CB21-0640-4378-A4DD-9DDFC4E5A859}" src="https://github.com/user-attachments/assets/1a0a9b5a-c855-4afc-a1fb-8562d28b5f1f" />
+<img width="445" height="239" alt="{E1C9E485-2966-408F-ACC7-BEF2D863E67A}" src="https://github.com/user-attachments/assets/c35bd427-27d4-41c4-99cd-1feb2547e406" />
+<img width="344" height="346" alt="{A739F676-7647-42EF-8708-7124CE9AB632}" src="https://github.com/user-attachments/assets/91f5a947-fb76-4707-a290-d83bb8aa66ce" />
+<img width="345" height="414" alt="{13997B25-3476-4010-8382-28080B15D082}" src="https://github.com/user-attachments/assets/0fff68ab-a559-4d3b-9106-1efd80cf1b88" />
+<img width="398" height="317" alt="{2736A2AD-544A-4647-93BA-079A34A839F3}" src="https://github.com/user-attachments/assets/f20c0923-b66e-4eb2-8e13-2bab6c097c0d" />
+
+
+
+
+
+
+
 
 ### Admin Module
 
@@ -40,6 +56,10 @@ The application consists of two modules:
 - Supplier recommendations
 - Warehouse allocation
 - Inventory reports
+- <img width="377" height="248" alt="{03601768-C247-421A-ACED-6C0845B021FA}" src="https://github.com/user-attachments/assets/02ab9d50-b03e-44f1-b976-f947a05d3db4" />
+<img width="398" height="410" alt="{32ECE393-80A7-4DF3-B06F-F2349C617ADC}" src="https://github.com/user-attachments/assets/d4c73518-9d3c-4e73-83c6-49103da67e57" />
+
+
 
 ---
 
@@ -74,11 +94,17 @@ Delivery Agent
         │
         ▼
 Prediction & Dashboard
+
+<img width="2093" height="295" alt="image" src="https://github.com/user-attachments/assets/ee3e5d3c-b450-4491-9010-b09b3e12d028" />
 ```
+
+
 
 ---
 
 ## Multi-Agent Architecture
+
+<img width="3000" height="1459" alt="image" src="https://github.com/user-attachments/assets/a0cc3d72-476e-42bd-9d43-cf216d48cc90" />
 
 ### Consumption Agent
 
@@ -110,13 +136,15 @@ Prediction & Dashboard
 ---
 
 ## Machine Learning Models
+<img width="3000" height="1350" alt="image" src="https://github.com/user-attachments/assets/d97af6eb-b4ce-40a1-8250-2c7ca408754c" />
+
 
 The project uses supervised learning models for consumption prediction.
 
 | Model | Purpose |
 |--------|----------|
 | Random Forest Regressor | Monthly Rice Prediction |
-| Random Forest Regressor | Weekly Milk Prediction |
+| XG Boost | Weekly Milk Prediction |
 
 Rule-based logic is used for estimating:
 
