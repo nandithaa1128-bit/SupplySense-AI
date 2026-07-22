@@ -65,7 +65,6 @@ The application consists of two modules:
 
 ## Project Workflow
 <img width="2093" height="295" alt="image" src="https://github.com/user-attachments/assets/ee3e5d3c-b450-4491-9010-b09b3e12d028" />
-```
 User Input
         │
         ▼
@@ -94,11 +93,6 @@ Delivery Agent
         │
         ▼
 Prediction & Dashboard
-
-
-```
-
-
 
 ---
 
