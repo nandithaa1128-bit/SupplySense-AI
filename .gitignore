@@ -16,7 +16,6 @@ env/
 .ipynb_checkpoints/
 
 # Models
-*.pkl
 *.joblib
 
 # Python cache / tools
@@ -30,3 +29,5 @@ Thumbs.db
 anaconda_projects/
 
 Notebooks/catboost_info/
+
+SupplySense-AI/
