@@ -1,0 +1,25 @@
+STORE_MAPPING = {
+
+    "Zepto": "zepto",
+    "Blinkit": "blinkit",
+    "BigBasket": "bigbasket",
+    "Swiggy Instamart": "swiggy_instamart",
+    "Amazon Fresh": "amazon_fresh",
+    "Amazon Now": "amazon_now",
+    "Flipkart Minutes": "flipkart_minutes",
+    "Reliance Fresh": "reliance_fresh",
+    "Dmart": "dmart",
+    "Dmart Ready": "dmart_ready",
+    "Metro": "metro",
+    "Lulu Daily": "lulu_daily",
+    "More Mega Store": "more_mega_store",
+    "JioMart": "jio_mart",
+    "General Store": "general_stores",
+    "Local Kirana Store": "local_kirana_stores",
+    "Big Market": "big_market",
+    "Shoprite Mall": "shoprite_mall",
+    "K R Market": "k_r_market",
+    "Gandhi Bazaar": "gandhi_bazaar",
+    "Coffee Estate": "from_our_coffee_estate",
+    "Other": "all_of_this"
+}

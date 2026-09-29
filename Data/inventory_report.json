@@ -1,0 +1,2183 @@
+{
+    "South": {
+        "vegetables": {
+            "Onion": {
+                "required": 64.25,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 64.25
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Tomato": {
+                "required": 59.900000000000006,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 59.9
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Carrot": {
+                "required": 38.8,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 38.8
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Potato": {
+                "required": 48.98,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 48.98
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Beans": {
+                "required": 28.480000000000004,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 28.48
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Chilli": {
+                "required": 32.14999999999999,
+                "allocated": [],
+                "remaining": 32.14999999999999
+            },
+            "Cauliflower": {
+                "required": 7.76,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 7.76
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Cabbage": {
+                "required": 8.520000000000001,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 8.52
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Okra": {
+                "required": 8.98,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 8.98
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Drumstick": {
+                "required": 17.760000000000005,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 17.76
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Brinjal": {
+                "required": 9.030000000000001,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 9.03
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Bottle Guard": {
+                "required": 0.55,
+                "allocated": [],
+                "remaining": 0.55
+            },
+            "Zukkini": {
+                "required": 0.47,
+                "allocated": [],
+                "remaining": 0.47
+            },
+            "Cucumber": {
+                "required": 0.8,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 0.8
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Bottle Gourd,": {
+                "required": 0.5,
+                "allocated": [],
+                "remaining": 0.5
+            }
+        },
+        "fruits": {
+            "Banana": {
+                "required": 45.760000000000005,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 45.76
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Apple": {
+                "required": 27.97,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 27.97
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Orange": {
+                "required": 17.640000000000004,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 17.64
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Grapes": {
+                "required": 7.340000000000001,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 7.34
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Watermelon": {
+                "required": 11.97,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 11.97
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Pomegranate": {
+                "required": 16.010000000000005,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 16.01
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Papaya": {
+                "required": 12.39,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 12.39
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Guava": {
+                "required": 11.81,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 11.81
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Mango": {
+                "required": 1.61,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 1.61
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Kiwi": {
+                "required": 2.42,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 2.42
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Plum": {
+                "required": 0.69,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 0.69
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Lychee": {
+                "required": 0.69,
+                "allocated": [],
+                "remaining": 0.69
+            },
+            "Jammun": {
+                "required": 0.69,
+                "allocated": [],
+                "remaining": 0.69
+            }
+        },
+        "grains": {
+            "Rice": {
+                "required": 371.15000000000003,
+                "allocated": [],
+                "remaining": 371.15000000000003
+            },
+            "Millets": {
+                "required": 32.7,
+                "allocated": [],
+                "remaining": 32.7
+            },
+            "Ragi": {
+                "required": 57.480000000000004,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "South",
+                        "lead_time": 8,
+                        "supplied": 57.48
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Wheat": {
+                "required": 63.910000000000004,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "South",
+                        "lead_time": 8,
+                        "supplied": 63.91
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Jawar": {
+                "required": 3.7800000000000002,
+                "allocated": [],
+                "remaining": 3.7800000000000002
+            },
+            "Barley": {
+                "required": 13.759999999999998,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "South",
+                        "lead_time": 8,
+                        "supplied": 13.76
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Maize": {
+                "required": 10.76,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "South",
+                        "lead_time": 8,
+                        "supplied": 10.76
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Jowar": {
+                "required": 8.07,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "South",
+                        "lead_time": 8,
+                        "supplied": 8.07
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Sorghum": {
+                "required": 2.18,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "South",
+                        "lead_time": 8,
+                        "supplied": 2.18
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "dairy": {
+            "Milk": {
+                "required": 129.04999999999998,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 129.05
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Curd": {
+                "required": 53.72,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 53.72
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Panner": {
+                "required": 29.440000000000005,
+                "allocated": [],
+                "remaining": 29.440000000000005
+            },
+            "Ice Cream": {
+                "required": 18.220000000000002,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "South",
+                        "lead_time": 6,
+                        "supplied": 18.22
+                    }
+                ],
+                "remaining": 0.0
+            }
+        }
+    },
+    "West": {
+        "vegetables": {
+            "Onion": {
+                "required": 89.38000000000001,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 89.38
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Tomato": {
+                "required": 81.74000000000004,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 81.74
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Carrot": {
+                "required": 53.95,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 53.95
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Beans": {
+                "required": 47.63999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 47.64
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Cabbage": {
+                "required": 24.6,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 24.6
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Potato": {
+                "required": 84.18000000000002,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 84.18
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Drumstick": {
+                "required": 29.360000000000003,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 29.36
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Chilli": {
+                "required": 51.22999999999999,
+                "allocated": [],
+                "remaining": 51.22999999999999
+            },
+            "Brinjal": {
+                "required": 30.279999999999998,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 30.28
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Cauliflower": {
+                "required": 20.930000000000003,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 20.93
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Okra": {
+                "required": 22.0,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 22.0
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Hagalkai": {
+                "required": 0.95,
+                "allocated": [],
+                "remaining": 0.95
+            },
+            "Greens": {
+                "required": 0.66,
+                "allocated": [],
+                "remaining": 0.66
+            },
+            "Chayote Squash": {
+                "required": 0.92,
+                "allocated": [],
+                "remaining": 0.92
+            },
+            "Peas": {
+                "required": 2.91,
+                "allocated": [],
+                "remaining": 2.91
+            }
+        },
+        "fruits": {
+            "Banana": {
+                "required": 62.900000000000006,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 62.9
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Apple": {
+                "required": 38.03000000000001,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 38.03
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Orange": {
+                "required": 28.41,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 28.41
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Papaya": {
+                "required": 26.070000000000004,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 26.07
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Watermelon": {
+                "required": 25.730000000000004,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 25.73
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Grapes": {
+                "required": 18.52,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 18.52
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Guava": {
+                "required": 27.27,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 27.27
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Mango": {
+                "required": 5.32,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 5.32
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Pomegranate": {
+                "required": 22.069999999999997,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 22.07
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Blue Berry": {
+                "required": 0.67,
+                "allocated": [],
+                "remaining": 0.67
+            },
+            "Strawberry": {
+                "required": 0.67,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 0.67
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Mangos During Season": {
+                "required": 0.87,
+                "allocated": [],
+                "remaining": 0.87
+            },
+            "Litchi": {
+                "required": 0.5,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 0.5
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Passionfruit": {
+                "required": 0.5,
+                "allocated": [],
+                "remaining": 0.5
+            },
+            "Plum Mango": {
+                "required": 0.91,
+                "allocated": [],
+                "remaining": 0.91
+            },
+            "Muskmelon": {
+                "required": 0.83,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 0.83
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "grains": {
+            "Rice": {
+                "required": 630.1800000000001,
+                "allocated": [],
+                "remaining": 630.1800000000001
+            },
+            "Millets": {
+                "required": 45.21000000000001,
+                "allocated": [],
+                "remaining": 45.21000000000001
+            },
+            "Wheat": {
+                "required": 120.35999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "West",
+                        "lead_time": 8,
+                        "supplied": 120.36
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Maize": {
+                "required": 31.980000000000004,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "West",
+                        "lead_time": 8,
+                        "supplied": 31.98
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Ragi": {
+                "required": 80.01999999999998,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "West",
+                        "lead_time": 8,
+                        "supplied": 80.02
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Barley": {
+                "required": 18.529999999999998,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "West",
+                        "lead_time": 8,
+                        "supplied": 18.53
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Sorghum": {
+                "required": 5.159999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "West",
+                        "lead_time": 8,
+                        "supplied": 5.16
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Jowar": {
+                "required": 10.94,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "West",
+                        "lead_time": 8,
+                        "supplied": 10.94
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Jawar": {
+                "required": 2.5700000000000003,
+                "allocated": [],
+                "remaining": 2.5700000000000003
+            }
+        },
+        "dairy": {
+            "Milk": {
+                "required": 194.92,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 24.95
+                    },
+                    {
+                        "supplier": "Amul Distribution Centre",
+                        "warehouse": "Hebbal",
+                        "supplier_zone": "North",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 169.97
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Curd": {
+                "required": 89.33,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 89.33
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Panner": {
+                "required": 46.690000000000005,
+                "allocated": [],
+                "remaining": 46.690000000000005
+            },
+            "Ice Cream": {
+                "required": 26.51,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "West",
+                        "lead_time": 6,
+                        "supplied": 26.51
+                    }
+                ],
+                "remaining": 0.0
+            }
+        }
+    },
+    "East": {
+        "vegetables": {
+            "Onion": {
+                "required": 13.120000000000001,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 13.12
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Tomato": {
+                "required": 11.379999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 11.38
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Potato": {
+                "required": 12.250000000000002,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 10.84
+                    },
+                    {
+                        "supplier": "Karnataka Fresh Farms",
+                        "warehouse": "Hoskote",
+                        "supplier_zone": "East",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 1.41
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Cabbage": {
+                "required": 7.01,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 7.01
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Drumstick": {
+                "required": 2.91,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 2.91
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Chilli": {
+                "required": 5.87,
+                "allocated": [],
+                "remaining": 5.87
+            },
+            "Carrot": {
+                "required": 5.86,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 5.86
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Brinjal": {
+                "required": 5.17,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 5.17
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Beans": {
+                "required": 6.83,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 6.83
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Cauliflower": {
+                "required": 4.05,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 4.05
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Okra": {
+                "required": 5.96,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 5.96
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "fruits": {
+            "Banana": {
+                "required": 9.84,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 9.84
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Apple": {
+                "required": 6.8999999999999995,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 6.9
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Orange": {
+                "required": 5.3500000000000005,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 5.35
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Grapes": {
+                "required": 3.01,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 3.01
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Watermelon": {
+                "required": 4.82,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 4.82
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Papaya": {
+                "required": 3.1799999999999997,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 3.18
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Pomegranate": {
+                "required": 3.01,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 3.01
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Guava": {
+                "required": 2.5700000000000003,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 2.57
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "grains": {
+            "Rice": {
+                "required": 110.28,
+                "allocated": [],
+                "remaining": 110.28
+            },
+            "Ragi": {
+                "required": 11.2,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "East",
+                        "lead_time": 8,
+                        "supplied": 11.2
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Wheat": {
+                "required": 12.26,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "East",
+                        "lead_time": 8,
+                        "supplied": 12.26
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Maize": {
+                "required": 4.449999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "East",
+                        "lead_time": 8,
+                        "supplied": 4.45
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Jawar": {
+                "required": 4.82,
+                "allocated": [],
+                "remaining": 4.82
+            },
+            "Millets": {
+                "required": 3.1999999999999997,
+                "allocated": [],
+                "remaining": 3.1999999999999997
+            },
+            "Barley": {
+                "required": 1.32,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "East",
+                        "lead_time": 8,
+                        "supplied": 1.32
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Sorghum": {
+                "required": 2.26,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "East",
+                        "lead_time": 8,
+                        "supplied": 2.26
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Jowar": {
+                "required": 0.25,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "East",
+                        "lead_time": 8,
+                        "supplied": 0.25
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "dairy": {
+            "Milk": {
+                "required": 30.46,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 0.0
+                    },
+                    {
+                        "supplier": "Amul Distribution Centre",
+                        "warehouse": "Hebbal",
+                        "supplier_zone": "North",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 30.46
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Curd": {
+                "required": 14.399999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 14.4
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Panner": {
+                "required": 7.2,
+                "allocated": [],
+                "remaining": 7.2
+            },
+            "Ice Cream": {
+                "required": 4.16,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "East",
+                        "lead_time": 6,
+                        "supplied": 4.16
+                    }
+                ],
+                "remaining": 0.0
+            }
+        }
+    },
+    "North": {
+        "vegetables": {
+            "Onion": {
+                "required": 4.27,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 4.27
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Tomato": {
+                "required": 6.129999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 6.13
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Potato": {
+                "required": 6.609999999999999,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 0.0
+                    },
+                    {
+                        "supplier": "Karnataka Fresh Farms",
+                        "warehouse": "Hoskote",
+                        "supplier_zone": "East",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 6.61
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Beans": {
+                "required": 4.720000000000001,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 4.72
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Drumstick": {
+                "required": 0.87,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 0.87
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Chilli": {
+                "required": 4.720000000000001,
+                "allocated": [],
+                "remaining": 4.720000000000001
+            },
+            "Carrot": {
+                "required": 3.8500000000000005,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 3.85
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Cauliflower": {
+                "required": 1.87,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 1.87
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "fruits": {
+            "Banana": {
+                "required": 3.62,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 3.62
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Apple": {
+                "required": 2.9,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 2.9
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Orange": {
+                "required": 2.42,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 2.42
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Papaya": {
+                "required": 1.75,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 1.75
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Guava": {
+                "required": 1.8900000000000001,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 1.89
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Pomegranate": {
+                "required": 1.22,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 1.22
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Grapes": {
+                "required": 0.69,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 0.69
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Watermelon": {
+                "required": 1.3599999999999999,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 1.36
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "grains": {
+            "Rice": {
+                "required": 36.15,
+                "allocated": [],
+                "remaining": 36.15
+            },
+            "Jowar": {
+                "required": 0.75,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "North",
+                        "lead_time": 8,
+                        "supplied": 0.75
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Millets": {
+                "required": 0.75,
+                "allocated": [],
+                "remaining": 0.75
+            },
+            "Wheat": {
+                "required": 2.63,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "North",
+                        "lead_time": 8,
+                        "supplied": 2.63
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Maize": {
+                "required": 8.25,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "North",
+                        "lead_time": 8,
+                        "supplied": 8.25
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Barley": {
+                "required": 0.75,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "North",
+                        "lead_time": 8,
+                        "supplied": 0.75
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Ragi": {
+                "required": 1.88,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "North",
+                        "lead_time": 8,
+                        "supplied": 1.88
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "dairy": {
+            "Milk": {
+                "required": 8.46,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 0.0
+                    },
+                    {
+                        "supplier": "Amul Distribution Centre",
+                        "warehouse": "Hebbal",
+                        "supplier_zone": "North",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 8.46
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Curd": {
+                "required": 5.04,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 5.04
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Panner": {
+                "required": 2.16,
+                "allocated": [],
+                "remaining": 2.16
+            },
+            "Ice Cream": {
+                "required": 0.8,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "North",
+                        "lead_time": 6,
+                        "supplied": 0.8
+                    }
+                ],
+                "remaining": 0.0
+            }
+        }
+    },
+    "Central": {
+        "vegetables": {
+            "Onion": {
+                "required": 6.08,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 6.08
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Tomato": {
+                "required": 10.09,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 10.09
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Carrot": {
+                "required": 2.44,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 2.44
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Potato": {
+                "required": 10.870000000000001,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 0.0
+                    },
+                    {
+                        "supplier": "Karnataka Fresh Farms",
+                        "warehouse": "Hoskote",
+                        "supplier_zone": "East",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 10.87
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Cauliflower": {
+                "required": 1.22,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 1.22
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Okra": {
+                "required": 1.22,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 1.22
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Drumstick": {
+                "required": 4.05,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 4.05
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Beans": {
+                "required": 1.61,
+                "allocated": [
+                    {
+                        "supplier": "Bangalore Vegetable FPO",
+                        "warehouse": "Doddaballapur",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 1.61
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Chilli": {
+                "required": 1.22,
+                "allocated": [],
+                "remaining": 1.22
+            },
+            "Peas": {
+                "required": 1.22,
+                "allocated": [],
+                "remaining": 1.22
+            }
+        },
+        "fruits": {
+            "Banana": {
+                "required": 3.59,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 3.59
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Apple": {
+                "required": 2.88,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 2.88
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Papaya": {
+                "required": 2.4,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 2.4
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Watermelon": {
+                "required": 3.16,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 3.16
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Pomegranate": {
+                "required": 2.4,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 2.4
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Guava": {
+                "required": 0.72,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 0.72
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Orange": {
+                "required": 1.6,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 1.6
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Grapes": {
+                "required": 2.44,
+                "allocated": [
+                    {
+                        "supplier": "HOPCOMS Fruit Hub",
+                        "warehouse": "Lalbagh",
+                        "supplier_zone": "South",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 2.44
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "grains": {
+            "Rice": {
+                "required": 40.620000000000005,
+                "allocated": [],
+                "remaining": 40.620000000000005
+            },
+            "Ragi": {
+                "required": 6.5,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "Central",
+                        "lead_time": 8,
+                        "supplied": 6.5
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Wheat": {
+                "required": 6.5,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "Central",
+                        "lead_time": 8,
+                        "supplied": 6.5
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Barley": {
+                "required": 2.0,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "Central",
+                        "lead_time": 8,
+                        "supplied": 2.0
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Millets": {
+                "required": 1.5,
+                "allocated": [],
+                "remaining": 1.5
+            },
+            "Maize": {
+                "required": 1.5,
+                "allocated": [
+                    {
+                        "supplier": "Karnataka Grain Depot",
+                        "warehouse": "Peenya",
+                        "supplier_zone": "West",
+                        "customer_zone": "Central",
+                        "lead_time": 8,
+                        "supplied": 1.5
+                    }
+                ],
+                "remaining": 0.0
+            }
+        },
+        "dairy": {
+            "Milk": {
+                "required": 13.330000000000002,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 0.0
+                    },
+                    {
+                        "supplier": "Amul Distribution Centre",
+                        "warehouse": "Hebbal",
+                        "supplier_zone": "North",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 13.33
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Curd": {
+                "required": 8.42,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 8.42
+                    }
+                ],
+                "remaining": 0.0
+            },
+            "Panner": {
+                "required": 2.14,
+                "allocated": [],
+                "remaining": 2.14
+            },
+            "Ice Cream": {
+                "required": 2.24,
+                "allocated": [
+                    {
+                        "supplier": "Nandini Dairy Hub",
+                        "warehouse": "Bengaluru",
+                        "supplier_zone": "Central",
+                        "customer_zone": "Central",
+                        "lead_time": 6,
+                        "supplied": 2.24
+                    }
+                ],
+                "remaining": 0.0
+            }
+        }
+    }
+}

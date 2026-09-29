@@ -1,0 +1,244 @@
+{
+    "South": {
+        "areas": 24,
+        "households": 41,
+        "rice_per_month": 371.15000000000003,
+        "milk_per_week": 129.04999999999998,
+        "vegetables": {
+            "Onion": 64.25,
+            "Tomato": 59.900000000000006,
+            "Carrot": 38.8,
+            "Potato": 48.98,
+            "Beans": 28.480000000000004,
+            "Chilli": 32.14999999999999,
+            "Cauliflower": 7.76,
+            "Cabbage": 8.520000000000001,
+            "Okra": 8.98,
+            "Drumstick": 17.760000000000005,
+            "Brinjal": 9.030000000000001,
+            "Bottle Guard": 0.55,
+            "Zukkini": 0.47,
+            "Cucumber": 0.8,
+            "Bottle Gourd,": 0.5
+        },
+        "fruits": {
+            "Banana": 45.760000000000005,
+            "Apple": 27.97,
+            "Orange": 17.640000000000004,
+            "Grapes": 7.340000000000001,
+            "Watermelon": 11.97,
+            "Pomegranate": 16.010000000000005,
+            "Papaya": 12.39,
+            "Guava": 11.81,
+            "Mango": 1.61,
+            "Kiwi": 2.42,
+            "Plum": 0.69,
+            "Lychee": 0.69,
+            "Jammun": 0.69
+        },
+        "grains": {
+            "Rice": 371.15000000000003,
+            "Millets": 32.7,
+            "Ragi": 57.480000000000004,
+            "Wheat": 63.910000000000004,
+            "Jawar": 3.7800000000000002,
+            "Barley": 13.759999999999998,
+            "Maize": 10.76,
+            "Jowar": 8.07,
+            "Sorghum": 2.18
+        },
+        "dairy": {
+            "Milk": 129.04999999999998,
+            "Curd": 53.72,
+            "Panner": 29.440000000000005,
+            "Ice Cream": 18.220000000000002
+        }
+    },
+    "West": {
+        "areas": 15,
+        "households": 63,
+        "rice_per_month": 630.1800000000001,
+        "milk_per_week": 194.92,
+        "vegetables": {
+            "Onion": 89.38000000000001,
+            "Tomato": 81.74000000000004,
+            "Carrot": 53.95,
+            "Beans": 47.63999999999999,
+            "Cabbage": 24.6,
+            "Potato": 84.18000000000002,
+            "Drumstick": 29.360000000000003,
+            "Chilli": 51.22999999999999,
+            "Brinjal": 30.279999999999998,
+            "Cauliflower": 20.930000000000003,
+            "Okra": 22.0,
+            "Hagalkai": 0.95,
+            "Greens": 0.66,
+            "Chayote Squash": 0.92,
+            "Peas": 2.91
+        },
+        "fruits": {
+            "Banana": 62.900000000000006,
+            "Apple": 38.03000000000001,
+            "Orange": 28.41,
+            "Papaya": 26.070000000000004,
+            "Watermelon": 25.730000000000004,
+            "Grapes": 18.52,
+            "Guava": 27.27,
+            "Mango": 5.32,
+            "Pomegranate": 22.069999999999997,
+            "Blue Berry": 0.67,
+            "Strawberry": 0.67,
+            "Mangos During Season": 0.87,
+            "Litchi": 0.5,
+            "Passionfruit": 0.5,
+            "Plum Mango": 0.91,
+            "Muskmelon": 0.83
+        },
+        "grains": {
+            "Rice": 630.1800000000001,
+            "Millets": 45.21000000000001,
+            "Wheat": 120.35999999999999,
+            "Maize": 31.980000000000004,
+            "Ragi": 80.01999999999998,
+            "Barley": 18.529999999999998,
+            "Sorghum": 5.159999999999999,
+            "Jowar": 10.94,
+            "Jawar": 2.5700000000000003
+        },
+        "dairy": {
+            "Milk": 194.92,
+            "Curd": 89.33,
+            "Panner": 46.690000000000005,
+            "Ice Cream": 26.51
+        }
+    },
+    "East": {
+        "areas": 3,
+        "households": 10,
+        "rice_per_month": 110.28,
+        "milk_per_week": 30.46,
+        "vegetables": {
+            "Onion": 13.120000000000001,
+            "Tomato": 11.379999999999999,
+            "Potato": 12.250000000000002,
+            "Cabbage": 7.01,
+            "Drumstick": 2.91,
+            "Chilli": 5.87,
+            "Carrot": 5.86,
+            "Brinjal": 5.17,
+            "Beans": 6.83,
+            "Cauliflower": 4.05,
+            "Okra": 5.96
+        },
+        "fruits": {
+            "Banana": 9.84,
+            "Apple": 6.8999999999999995,
+            "Orange": 5.3500000000000005,
+            "Grapes": 3.01,
+            "Watermelon": 4.82,
+            "Papaya": 3.1799999999999997,
+            "Pomegranate": 3.01,
+            "Guava": 2.5700000000000003
+        },
+        "grains": {
+            "Rice": 110.28,
+            "Ragi": 11.2,
+            "Wheat": 12.26,
+            "Maize": 4.449999999999999,
+            "Jawar": 4.82,
+            "Millets": 3.1999999999999997,
+            "Barley": 1.32,
+            "Sorghum": 2.26,
+            "Jowar": 0.25
+        },
+        "dairy": {
+            "Milk": 30.46,
+            "Curd": 14.399999999999999,
+            "Panner": 7.2,
+            "Ice Cream": 4.16
+        }
+    },
+    "North": {
+        "areas": 4,
+        "households": 4,
+        "rice_per_month": 36.15,
+        "milk_per_week": 8.46,
+        "vegetables": {
+            "Onion": 4.27,
+            "Tomato": 6.129999999999999,
+            "Potato": 6.609999999999999,
+            "Beans": 4.720000000000001,
+            "Drumstick": 0.87,
+            "Chilli": 4.720000000000001,
+            "Carrot": 3.8500000000000005,
+            "Cauliflower": 1.87
+        },
+        "fruits": {
+            "Banana": 3.62,
+            "Apple": 2.9,
+            "Orange": 2.42,
+            "Papaya": 1.75,
+            "Guava": 1.8900000000000001,
+            "Pomegranate": 1.22,
+            "Grapes": 0.69,
+            "Watermelon": 1.3599999999999999
+        },
+        "grains": {
+            "Rice": 36.15,
+            "Jowar": 0.75,
+            "Millets": 0.75,
+            "Wheat": 2.63,
+            "Maize": 8.25,
+            "Barley": 0.75,
+            "Ragi": 1.88
+        },
+        "dairy": {
+            "Milk": 8.46,
+            "Curd": 5.04,
+            "Panner": 2.16,
+            "Ice Cream": 0.8
+        }
+    },
+    "Central": {
+        "areas": 2,
+        "households": 4,
+        "rice_per_month": 40.620000000000005,
+        "milk_per_week": 13.330000000000002,
+        "vegetables": {
+            "Onion": 6.08,
+            "Tomato": 10.09,
+            "Carrot": 2.44,
+            "Potato": 10.870000000000001,
+            "Cauliflower": 1.22,
+            "Okra": 1.22,
+            "Drumstick": 4.05,
+            "Beans": 1.61,
+            "Chilli": 1.22,
+            "Peas": 1.22
+        },
+        "fruits": {
+            "Banana": 3.59,
+            "Apple": 2.88,
+            "Papaya": 2.4,
+            "Watermelon": 3.16,
+            "Pomegranate": 2.4,
+            "Guava": 0.72,
+            "Orange": 1.6,
+            "Grapes": 2.44
+        },
+        "grains": {
+            "Rice": 40.620000000000005,
+            "Ragi": 6.5,
+            "Wheat": 6.5,
+            "Barley": 2.0,
+            "Millets": 1.5,
+            "Maize": 1.5
+        },
+        "dairy": {
+            "Milk": 13.330000000000002,
+            "Curd": 8.42,
+            "Panner": 2.14,
+            "Ice Cream": 2.24
+        }
+    }
+}
