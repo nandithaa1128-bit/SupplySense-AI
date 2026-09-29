@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn==1.8.0
+xgboost
+joblib
+openpyxl
+python-multipart
+groq
+matplotlib
+seaborn
+jupyter
+catboost
