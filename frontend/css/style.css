@@ -125,9 +125,11 @@ input,select{font-family:inherit;}
   flex-direction:column;
   flex:1;
   padding:40px 70px;
+}
+.screen.active{
+  display:flex;
   animation:fadeUp .45s ease;
 }
-.screen.active{display:flex;}
 @keyframes fadeUp{
   from{opacity:0;transform:translateY(10px);}
   to{opacity:1;transform:translateY(0);}

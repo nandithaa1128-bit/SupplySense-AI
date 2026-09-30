@@ -40,12 +40,7 @@ class DeliveryAgent:
             return "Own Fleet"
 
     def get_status(self, travel_hours):
-        if travel_hours <= 2:
-            return "Out For Delivery"
-        elif travel_hours <= 4:
-            return "Packed"
-        else:
-            return "Preparing"
+        return "Planned"
 
     def run(self):
         report = {}

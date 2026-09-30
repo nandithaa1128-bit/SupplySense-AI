@@ -30,8 +30,8 @@
         <p class="tagline">Predict household food consumption and help suppliers maintain optimal inventory — one street at a time.</p>
 
         <div class="cta-row" id="welcome-ctas">
-          <button class="btn btn-primary" id="btn-get-started">Get started</button>
-          <button class="btn btn-ghost" id="btn-admin-login">Admin login</button>
+          <button type="button" class="btn btn-primary" id="btn-get-started">Get started</button>
+          <button type="button" class="btn btn-ghost" id="btn-admin-login">Admin login</button>
         </div>
       </div>
       <div class="hero-illustration">
@@ -50,7 +50,7 @@
   <!-- ================= SCREEN 1B: IDENTITY (own screen) ================= -->
   <section class="screen" id="scr-identity">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-welcome')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-welcome')">←</button>
       <span class="step-label">Step 0/6</span>
     </div>
     <h2 class="screen-title">Tell us who you are</h2>
@@ -74,15 +74,15 @@
       </div>
     </div>
     <div class="footer-nav">
-      <button class="btn btn-ghost" onclick="goTo('scr-welcome')">Back</button>
-      <button class="btn btn-primary" id="btn-continue-identity">Continue</button>
+      <button type="button" class="btn btn-ghost" onclick="goTo('scr-welcome')">Back</button>
+      <button type="button" class="btn btn-primary" id="btn-continue-identity">Continue</button>
     </div>
   </section>
 
   <!-- ================= SCREEN 2: HOUSEHOLD ================= -->
   <section class="screen" id="scr-2">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-identity')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-identity')">←</button>
       <div class="stalk-wrap" id="stalk-wrap"></div>
       <span class="step-label" id="step-label">Step 1/6</span>
     </div>
@@ -112,15 +112,15 @@
     </div>
 
     <div class="footer-nav">
-      <button class="btn btn-ghost" onclick="goTo('scr-welcome')">Back</button>
-      <button class="btn btn-primary" id="btn-s2-next">Continue</button>
+      <button type="button" class="btn btn-ghost" onclick="goTo('scr-welcome')">Back</button>
+      <button type="button" class="btn btn-primary" id="btn-s2-next">Continue</button>
     </div>
   </section>
 
   <!-- ================= SCREEN 3: GROCERY & PRODUCE ================= -->
   <section class="screen" id="scr-3">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-2')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-2')">←</button>
       <div class="stalk-wrap" id="stalk-wrap-3"></div>
       <span class="step-label">Step 2/6</span>
     </div>
@@ -128,26 +128,26 @@
     <p class="screen-sub">Pick what regularly shows up in your kitchen.</p>
 
     <div class="section-title">Vegetables</div>
-    <div class="counter-badge"><b id="veg-count">0</b>/6 selected</div>
+    <div class="counter-badge"><b id="veg-count">0</b> selected</div>
     <div class="pill-grid" id="veg-grid"></div>
 
     <div class="section-title">Fruits</div>
-    <div class="counter-badge"><b id="fruit-count">0</b>/5 selected</div>
+    <div class="counter-badge"><b id="fruit-count">0</b> selected</div>
     <div class="pill-grid" id="fruit-grid"></div>
 
     <div class="section-title">Food grains</div>
     <div class="pill-grid" id="grain-grid"></div>
 
     <div class="footer-nav">
-      <button class="btn btn-ghost" onclick="goTo('scr-2')">Back</button>
-      <button class="btn btn-primary" id="btn-s3-next">Continue</button>
+      <button type="button" class="btn btn-ghost" onclick="goTo('scr-2')">Back</button>
+      <button type="button" class="btn btn-primary" id="btn-s3-next">Continue</button>
     </div>
   </section>
 
   <!-- ================= SCREEN 4: RICE & DAIRY ================= -->
   <section class="screen" id="scr-4">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-3')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-3')">←</button>
       <div class="stalk-wrap" id="stalk-wrap-4"></div>
       <span class="step-label">Step 3/6</span>
     </div>
@@ -161,15 +161,15 @@
     <div class="pill-grid" id="dairy-grid"></div>
 
     <div class="footer-nav">
-      <button class="btn btn-ghost" onclick="goTo('scr-3')">Back</button>
-      <button class="btn btn-primary" onclick="goTo('scr-5')">Continue</button>
+      <button type="button" class="btn btn-ghost" onclick="goTo('scr-3')">Back</button>
+      <button type="button" class="btn btn-primary" onclick="goTo('scr-5')">Continue</button>
     </div>
   </section>
 
   <!-- ================= SCREEN 5: QUANTITATIVE ================= -->
   <section class="screen" id="scr-5">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-4')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-4')">←</button>
       <div class="stalk-wrap" id="stalk-wrap-5"></div>
       <span class="step-label">Step 4/6</span>
     </div>
@@ -186,15 +186,15 @@
     <div class="radio-list" id="weekly-milk-list"></div>
 
     <div class="footer-nav">
-      <button class="btn btn-ghost" onclick="goTo('scr-4')">Back</button>
-      <button class="btn btn-primary" id="btn-s5-next">Continue</button>
+      <button type="button" class="btn btn-ghost" onclick="goTo('scr-4')">Back</button>
+      <button type="button" class="btn btn-primary" id="btn-s5-next">Continue</button>
     </div>
   </section>
 
   <!-- ================= SCREEN 6: PURCHASING ================= -->
   <section class="screen" id="scr-6">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-5')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-5')">←</button>
       <div class="stalk-wrap" id="stalk-wrap-6"></div>
       <span class="step-label">Step 5/6</span>
     </div>
@@ -211,15 +211,15 @@
     <div class="radio-list" id="grocery-freq-list"></div>
 
     <div class="footer-nav">
-      <button class="btn btn-ghost" onclick="goTo('scr-5')">Back</button>
-      <button class="btn btn-primary" id="btn-s6-next">Generate prediction</button>
+      <button type="button" class="btn btn-ghost" onclick="goTo('scr-5')">Back</button>
+      <button type="button" class="btn btn-primary" id="btn-s6-next">Generate prediction</button>
     </div>
   </section>
 
   <!-- ================= SCREEN 7: RESULT ================= -->
   <section class="screen" id="scr-7">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-6')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-6')">←</button>
       <div class="stalk-wrap" id="stalk-wrap-7"></div>
       <span class="step-label">Step 6/6</span>
     </div>
@@ -239,8 +239,7 @@
         <div class="result-card">
           <div class="rc-item"><div class="rc-label">Supplier</div><div class="rc-value" id="res-supplier">—</div></div>
           <div class="rc-item"><div class="rc-label">Warehouse</div><div class="rc-value" id="res-warehouse">—</div></div>
-          <div class="rc-item"><div class="rc-label">ETA</div><div class="rc-value" id="res-eta">—</div></div>
-          <div class="rc-item"><div class="rc-label">Status</div><div class="rc-value" id="res-status">—</div></div>
+          <div class="rc-item"><div class="rc-label">Projected Delivery</div><div class="rc-value" id="res-eta">—</div></div>
         </div>
       </div>
     </div>
@@ -248,15 +247,15 @@
     <div class="summary-card" id="summary-card"></div>
 
     <div class="footer-nav">
-      <button class="btn btn-ghost" onclick="resetApp()">Start over</button>
-      <button class="btn btn-primary" onclick="goTo('scr-welcome')">Done</button>
+      <button type="button" class="btn btn-ghost" onclick="resetApp()">Start over</button>
+      <button type="button" class="btn btn-primary" onclick="goTo('scr-welcome')">Done</button>
     </div>
   </section>
 
   <!-- ================= ADMIN LOGIN ================= -->
   <section class="screen" id="scr-admin-login">
     <div class="topbar">
-      <button class="back-btn" onclick="goTo('scr-welcome')">←</button>
+      <button type="button" class="back-btn" onclick="goTo('scr-welcome')">←</button>
       <span class="step-label">Admin access</span>
     </div>
     <div class="login-card">
@@ -284,7 +283,7 @@
         <div class="step-label" style="margin-bottom:2px;">Supplier console</div>
         <h2 class="dash-title">Demand overview</h2>
       </div>
-      <button class="logout-btn" onclick="goTo('scr-welcome')">Log out</button>
+      <button type="button" class="logout-btn" onclick="goTo('scr-welcome')">Log out</button>
     </div>
 
     <div class="kpi-grid" id="kpi-grid"></div>
@@ -304,6 +303,6 @@
 
 <div class="toast" id="toast"></div>
 
-<script src="js/script.js?v=2"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -82,6 +82,7 @@ ZONE_MAP = {
     "yeshwanthpur": "North",
 
     "andrahalli": "West",
+    "andhrahalli": "West",
     "attiguppe": "West",
     "basaveshwara nagar": "West",
     "basaveshwaranagar": "West",

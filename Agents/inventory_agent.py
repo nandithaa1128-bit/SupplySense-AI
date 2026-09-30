@@ -57,7 +57,7 @@ class InventoryAgent:
         )
 
         zone_suppliers = zone_suppliers.sort_values(
-            by=["supplier_order", "zone_order", "current_stock"],
+            by=["zone_order", "supplier_order", "current_stock"],
             ascending=[True, True, False],
         )
 

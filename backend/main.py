@@ -218,33 +218,52 @@ def get_inventory_status():
 
 @app.post("/predict")
 def predict(user: dict):
+    import traceback
+    try:
+        # Save cleaned dataset
+        try:
+            clean_df = preprocessor.engineer(user)
+            save_cleaned(clean_df)
+        except Exception:
+            traceback.print_exc()
 
-    # Save cleaned dataset
-    clean_df = preprocessor.engineer(user)
-    save_cleaned(clean_df)
+        # Save featured dataset
+        try:
+            feature_df = preprocessor.transform(user, save=False)
+            save_featured(feature_df)
+        except Exception:
+            traceback.print_exc()
 
-    # Save featured dataset
-    feature_df = preprocessor.transform(user, save=False)
-    save_featured(feature_df)
+        # Consumption Prediction
+        consumption_result = consumption.predict(user)
 
-    # Consumption Prediction
-    consumption_result = consumption.predict(user)
+        locality = user.get("locality", "").strip().lower()
+        zone = ZONE_MAP.get(locality, "South")
 
-    locality = user["locality"].strip().lower()
-    zone = ZONE_MAP.get(locality, "South")
+        try:
+            inventory_result = inventory.run_for_zone(zone, consumption_result)
+        except Exception:
+            traceback.print_exc()
+            inventory_result = {zone: {}}
 
-    inventory_result = inventory.run_for_zone(
-        zone,
-        consumption_result
-    )
+        try:
+            delivery_result = delivery.run_from_inventory(inventory_result)
+        except Exception:
+            traceback.print_exc()
+            delivery_result = {zone: {}}
 
-    delivery_result = delivery.run_from_inventory(
-        inventory_result
-    )
+        return {
+            "consumption": consumption_result,
+            "inventory": inventory_result,
+            "delivery": delivery_result,
+            "zone": zone
+        }
 
-    return {
-        "consumption": consumption_result,
-        "inventory": inventory_result,
-        "delivery": delivery_result,
-        "zone": zone
-    }
+    except Exception as e:
+        traceback.print_exc()
+        return {
+            "consumption": {"status": "error", "message": str(e)},
+            "inventory": {},
+            "delivery": {},
+            "zone": "South"
+        }

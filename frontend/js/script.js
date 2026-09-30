@@ -8,7 +8,7 @@ const state = {
   vegetables:[], fruits:[], grains:[],
   riceTypes:[], dairy:[],
   dailyRice:"", monthlyRice:"", weeklyMilk:"",
-  grocerySource:"", vegFreq:"", groceryFreq:""
+  grocerySource:[], vegFreq:"", groceryFreq:""
 };
 
 const OPTIONS = {
@@ -46,21 +46,43 @@ function renderStalk(){
 }
 
 function goTo(id){
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
-  window.scrollTo({top:0,behavior:"smooth"});
-  if(id === "scr-7"){
-    renderResult();
+
+  console.log("[SupplySense] GOING TO:", id);
+
+  const target = document.getElementById(id);
+
+  if (!target) {
+    console.error("[SupplySense] SCREEN NOT FOUND:", id);
+    toast("Prediction screen not found.");
+    return;
   }
-  if(id === "scr-dashboard") renderDashboard();
+
+  document.querySelectorAll('.screen').forEach(function(screen){
+    screen.classList.remove('active');
+    screen.style.display = '';
+  });
+
+  target.classList.add('active');
+  target.style.display = 'flex';
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
+  if (id === "scr-7") {
+    console.log("[SupplySense] Rendering prediction screen");
+    try { renderResult(); } catch (err) {
+      console.error("[SupplySense] renderResult error:", err);
+    }
+  }
+
+  if (id === "scr-dashboard") { renderDashboard(); }
+
   renderStalk();
 }
 
 function resetApp(){
   Object.assign(state,{
     houseNumber:"",name:"",phone:"",locality:"",familySize:"",dietType:"",meatDays:[],
-    vegetables:[],fruits:[],grains:[],riceTypes:[],dairy:[],dailyRice:"",monthlyRice:"",weeklyMilk:"",
-    grocerySource:"",vegFreq:"",groceryFreq:""
+    grocerySource:[],vegFreq:"",groceryFreq:""
   });
   document.getElementById('f-house').value="";
   document.getElementById('f-name').value="";
@@ -121,12 +143,6 @@ function buildPillGroup(containerId, list, stateKey, maxCount){
       if(i > -1){
         arr.splice(i,1);
       } else {
-        if(maxCount && arr.length >= maxCount){
-          toast("You can select up to "+maxCount+" only.");
-          pill.classList.add('shake');
-          setTimeout(()=>pill.classList.remove('shake'),350);
-          return;
-        }
         arr.push(item);
       }
       refreshPillGroup(containerId, stateKey);
@@ -159,6 +175,28 @@ function buildRadioGroup(containerId, list, stateKey, onChange){
       [...el.children].forEach(r=>r.classList.remove('selected'));
       row.classList.add('selected');
       if(onChange) onChange();
+    });
+    el.appendChild(row);
+  });
+}
+
+function buildCheckboxGroup(containerId, list, stateKey){
+  const el = document.getElementById(containerId);
+  el.innerHTML = "";
+  list.forEach(item=>{
+    const row = document.createElement('div');
+    row.className = 'radio-opt';
+    row.innerHTML = '<div class="radio-dot"></div><span>'+item+'</span>';
+    row.addEventListener('click', ()=>{
+      const arr = state[stateKey];
+      const i = arr.indexOf(item);
+      if(i > -1){
+        arr.splice(i,1);
+        row.classList.remove('selected');
+      } else {
+        arr.push(item);
+        row.classList.add('selected');
+      }
     });
     el.appendChild(row);
   });
@@ -227,86 +265,238 @@ document.getElementById('btn-s5-next').addEventListener('click', ()=>{
    SCREEN 6: purchasing & API prediction integration
 ======================================================== */
 const btn = document.getElementById("btn-s6-next");
-console.log(btn);
 btn.onclick = async function(e){
   e.preventDefault();
-  console.log("BUTTON CLICKED");
+  e.stopPropagation();
+  console.log("[FINAL DEBUG] BUTTON CLICKED");
 
-  if (!state.grocerySource || !state.vegFreq || !state.groceryFreq) {
+  try {
+
+  if (!state.grocerySource.length || !state.vegFreq || !state.groceryFreq) {
     toast("Please complete all purchasing questions.");
-    return;
+    return false;
   }
 
   toast("Generating AI prediction...");
 
+  const payload = Object.assign({}, state, {
+    grocerySource: Array.isArray(state.grocerySource)
+      ? (state.grocerySource[0] || "")
+      : (state.grocerySource || "")
+  });
+
+  console.log("[SupplySense] Sending payload:", JSON.stringify(payload));
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => {
+    controller.abort();
+  }, 30000);
+
+  let response;
   try {
-    const response = await fetch("http://127.0.0.1:8000/predict", {
+    response = await fetch("http://127.0.0.1:8000/predict", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(state)
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+      signal: controller.signal
     });
-
-    const prediction = await response.json();
-    const consumption = prediction.consumption;
-
-    // Update basic consumption details
-    document.getElementById("res-monthly-rice").innerText = consumption.rice_per_month.toFixed(2) + " kg";
-    document.getElementById("res-weekly-milk").innerText = consumption.milk_per_week.toFixed(2) + " L";
-    document.getElementById("res-grocery-freq").innerText = consumption.grocery_frequency;
-    document.getElementById("res-veg-freq").innerText = consumption.vegetable_frequency;
-
-    const zone = prediction.zone;
-    let supplier = "Not Available";
-    let warehouse = "Not Available";
-    let eta = "Not Available";
-    let status = "Optimized";
-
-    // Parse Inventory Allocations
-    const inventory = prediction.inventory[zone];
-    outer:
-    for (const category in inventory) {
-      for (const product in inventory[category]) {
-        const allocations = inventory[category][product].allocated;
-        if (allocations && allocations.length > 0) {
-          supplier = allocations[0].supplier;
-          warehouse = allocations[0].warehouse;
-          break outer;
-        }
-      }
+  } catch (fetchErr) {
+    clearTimeout(timeoutId);
+    if (fetchErr.name === "AbortError") {
+      console.error("[SupplySense] Request timed out after 30s");
+      toast("Backend timed out — showing empty results.");
+    } else {
+      console.error("[SupplySense] Network error:", fetchErr);
+      toast("Cannot reach backend — showing empty results.");
     }
-
-    // Parse Delivery Allocations
-    const delivery = prediction.delivery[zone];
-    outer2:
-    for (const category in delivery) {
-      for (const product in delivery[category]) {
-        const deliveries = delivery[category][product];
-        if (Array.isArray(deliveries) && deliveries.length > 0) {
-          eta = deliveries[0].estimated_delivery;
-          status = deliveries[0].status;
-          break outer2;
-        }
-      }
-    }
-
-    // Update UI elements with inventory/delivery assignments
-    document.getElementById("res-supplier").innerText = supplier;
-    document.getElementById("res-warehouse").innerText = warehouse;
-    document.getElementById("res-eta").innerText = eta;
-    document.getElementById("res-status").innerText = status;
-
-    // Persist prediction response globally to application state
-    state.prediction = prediction;
-
-    // Move into results display view
+    console.log("[FINAL DEBUG] BEFORE SCR-7 (no backend)");
+    console.log("[FINAL] scr-7 before:", document.getElementById("scr-7")?.className);
     goTo("scr-7");
-
-  } catch (err) {
-    console.error(err);
-    toast("Backend not running!");
+    console.log("[FINAL DEBUG] AFTER SCR-7", document.getElementById("scr-7")?.className);
+    return false;
   }
+
+  clearTimeout(timeoutId);
+  console.log("[SupplySense] Response received:", response.status, response.ok);
+
+  if (!response.ok) {
+    let errText = "";
+    try { errText = await response.text(); } catch(_){}
+    console.error("[SupplySense] Backend HTTP error:", response.status, errText);
+    toast("Backend error " + response.status + ". Showing partial results.");
+  }
+
+  let prediction = {};
+  try {
+    prediction = await response.json();
+    console.log("PREDICTION RESPONSE:", prediction);
+    console.log("CONSUMPTION:", prediction.consumption);
+    console.log("ZONE:", prediction.zone);
+  } catch (jsonErr) {
+    console.error("[SupplySense] JSON parse error:", jsonErr);
+    toast("Could not parse backend response. Showing empty results.");
+  }
+
+  console.log("[SupplySense] Prediction response:", prediction);
+
+  if (!prediction || typeof prediction !== "object") {
+    console.error("[SupplySense] Unexpected response:", prediction);
+    prediction = {};
+  }
+
+  const consumption = prediction.consumption || {};
+  console.log("[SupplySense] consumption:", consumption);
+
+  if (consumption.status === "error") {
+    console.warn("[SupplySense] Consumption agent error:", consumption.message);
+  }
+
+  // Populate consumption fields (safe — show — even if partial)
+  const elRice = document.getElementById("res-monthly-rice");
+  const elMilk = document.getElementById("res-weekly-milk");
+  const elGrocFreq = document.getElementById("res-grocery-freq");
+  const elVegFreq = document.getElementById("res-veg-freq");
+  if (elRice) elRice.innerText = (consumption.rice_per_month != null ? Number(consumption.rice_per_month).toFixed(2) : "—") + " kg";
+  if (elMilk) elMilk.innerText = (consumption.milk_per_week != null ? Number(consumption.milk_per_week).toFixed(2) : "—") + " L";
+  if (elGrocFreq) elGrocFreq.innerText = consumption.grocery_frequency || "—";
+  if (elVegFreq) elVegFreq.innerText = consumption.vegetable_frequency || "—";
+
+  const zone = prediction.zone || "";
+  console.log("[SupplySense] zone:", zone);
+
+  let supplier = "No supplier allocated";
+  let warehouse = "Not available";
+  let eta = "Not available";
+  let deliveryStatus = "Planned";
+
+  // Parse inventory safely
+try {
+  const inventory = prediction.inventory || {};
+  const invZone = inventory[zone] || {};
+
+  console.log("[SupplySense] inventory:", inventory);
+  console.log("[SupplySense] inventoryZone:", invZone);
+
+  for (const cat in invZone) {
+
+    const categoryData = invZone[cat];
+
+    if (!categoryData || typeof categoryData !== "object") {
+      continue;
+    }
+
+    for (const prod in categoryData) {
+
+      const productData = categoryData[prod];
+
+      if (!productData || typeof productData !== "object") {
+        continue;
+      }
+
+      const alloc = productData.allocated || [];
+
+      if (Array.isArray(alloc) && alloc.length > 0) {
+
+        supplier =
+          alloc[0].supplier ||
+          "No suitable supplier found";
+
+        warehouse =
+          alloc[0].warehouse ||
+          "No suitable warehouse found";
+
+        break;
+      }
+    }
+
+    if (warehouse !== "Not available") {
+      break;
+    }
+  }
+
+} catch (invErr) {
+
+  console.warn(
+    "[SupplySense] Inventory parse warning:",
+    invErr
+  );
+
+  supplier = "No suitable supplier found";
+  warehouse = "No suitable warehouse found";
+}
+
+  // Parse delivery safely
+try {
+
+  const delivery = prediction.delivery || {};
+  const delZone = delivery[zone] || {};
+
+  console.log("[SupplySense] delivery:", delivery);
+  console.log("[SupplySense] deliveryZone:", delZone);
+
+  for (const cat in delZone) {
+
+    const categoryData = delZone[cat];
+
+    if (!categoryData || typeof categoryData !== "object") {
+      continue;
+    }
+
+    for (const prod in categoryData) {
+
+      const deliveries = categoryData[prod];
+
+      if (
+        Array.isArray(deliveries) &&
+        deliveries.length > 0
+      ) {
+
+        eta =
+          deliveries[0].estimated_delivery ||
+          deliveries[0].eta ||
+          "Not available";
+
+        break;
+      }
+    }
+
+    if (eta !== "Not available") {
+      break;
+    }
+  }
+
+} catch (delErr) {
+
+  console.warn(
+    "[SupplySense] Delivery parse warning:",
+    delErr
+  );
+
+  eta = "Not available";
+}
+
+  const elSupplier = document.getElementById("res-supplier");
+  const elWarehouse = document.getElementById("res-warehouse");
+  const elEta = document.getElementById("res-eta");
+  if (elSupplier) elSupplier.innerText = supplier;
+  if (elWarehouse) elWarehouse.innerText = warehouse;
+  if (elEta) elEta.innerText = eta;
+
+  state.prediction = prediction;
+
+  console.log("[FINAL DEBUG] BEFORE SCR-7");
+  console.log("[FINAL] scr-7 before:", document.getElementById("scr-7")?.className);
+
+  goTo("scr-7");
+
+  console.log("[FINAL DEBUG] AFTER SCR-7", document.getElementById("scr-7")?.className);
+
+  } catch(outerErr) {
+    console.error("[SupplySense] Unhandled error in prediction handler:", outerErr);
+    toast("Something went wrong. Please try again.");
+  }
+
+  return false;
 };
 
 /* ========================================================
@@ -314,15 +504,15 @@ btn.onclick = async function(e){
 ======================================================== */
 function buildAllUI(){
   buildDayGrid();
-  buildPillGroup('veg-grid', OPTIONS.vegetables, 'vegetables', 6);
-  buildPillGroup('fruit-grid', OPTIONS.fruits, 'fruits', 5);
+  buildPillGroup('veg-grid', OPTIONS.vegetables, 'vegetables', null);
+  buildPillGroup('fruit-grid', OPTIONS.fruits, 'fruits', null);
   buildPillGroup('grain-grid', OPTIONS.grains, 'grains', null);
   buildPillGroup('rice-type-grid', OPTIONS.riceTypes, 'riceTypes', null);
   buildPillGroup('dairy-grid', OPTIONS.dairy, 'dairy', null);
   buildRadioGroup('daily-rice-list', OPTIONS.dailyRice, 'dailyRice');
   buildRadioGroup('monthly-rice-list', OPTIONS.monthlyRice, 'monthlyRice');
   buildRadioGroup('weekly-milk-list', OPTIONS.weeklyMilk, 'weeklyMilk');
-  buildRadioGroup('source-list', OPTIONS.source, 'grocerySource');
+  buildCheckboxGroup('source-list', OPTIONS.source, 'grocerySource');
   buildRadioGroup('veg-freq-list', OPTIONS.freq, 'vegFreq');
   buildRadioGroup('grocery-freq-list', OPTIONS.freq, 'groceryFreq');
   onGrainOrDietChange();
@@ -343,7 +533,7 @@ function renderResult(){
     row('Fruits', state.fruits.join(', ') || '—'),
     row('Grains', state.grains.join(', ') || '—'),
     row('Dairy', state.dairy.join(', ') || '—'),
-    row('Primary source', state.grocerySource || '—')
+    row('Primary source', (Array.isArray(state.grocerySource) ? state.grocerySource.join(', ') : state.grocerySource) || '—')
   ].join('');
 }
 function row(label,val){
