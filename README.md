@@ -56,6 +56,14 @@ The application consists of two modules:
 - Supplier recommendations
 - Warehouse allocation
 - Inventory reports
+
+## Machine Learning Models
+
+The current system uses trained models for consumption prediction:
+
+- Random Forest — Rice consumption prediction
+- XGBoost — Milk consumption prediction
+
 - <img width="377" height="248" alt="{03601768-C247-421A-ACED-6C0845B021FA}" src="https://github.com/user-attachments/assets/02ab9d50-b03e-44f1-b976-f947a05d3db4" />
 <img width="398" height="410" alt="{32ECE393-80A7-4DF3-B06F-F2349C617ADC}" src="https://github.com/user-attachments/assets/d4c73518-9d3c-4e73-83c6-49103da67e57" />
 
@@ -67,31 +75,31 @@ The application consists of two modules:
 <img width="2093" height="295" alt="image" src="https://github.com/user-attachments/assets/ee3e5d3c-b450-4491-9010-b09b3e12d028" />
 User Input
         │
-        ▼
+
 Data Validation
         │
-        ▼
+        
 Data Preprocessing
         │
-        ▼
+        
 Feature Engineering
         │
-        ▼
+        
 Machine Learning Models
         │
-        ▼
+        
 Consumption Agent
         │
         ▼
 Demand Forecasting Agent
         │
-        ▼
+        
 Inventory Agent
         │
-        ▼
+        
 Delivery Agent
         │
-        ▼
+        
 Prediction & Dashboard
 
 ---
@@ -182,6 +190,7 @@ The collected data was cleaned, encoded, and transformed before model training.
 
 - FastAPI
 - Python
+- Uvicorn
 
 ### Machine Learning
 
@@ -191,28 +200,41 @@ The collected data was cleaned, encoded, and transformed before model training.
 - Joblib
 
 ---
+### Project Structure
 
-## Project Structure
-
-```
-SupplySense AI
+SupplySense-AI/
 │
-├── backend
-├── frontend
-│   ├── assets
-│   ├── css
-│   ├── js
-│   └── index.html
+├── Agents/
+│   ├── consumption_agent.py
+│   ├── inventory_agent.py
+│   └── delivery_agent.py
 │
-├── Agents
-├── utils
-├── Data
-├── Models
-├── Notebooks
+├── backend/
+│   └── main.py
+│
+├── frontend/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+│
+├── Models/
+│   ├── milk_consumption_xgb.pkl
+│   ├── model_columns.pkl
+│   └── rice_consumption_rf.pkl
+│
+├── Data/
+│   ├── cleaned_dataset.csv
+│   ├── featured_engineering_dataset.csv
+│   ├── area_forecast.json
+│   └── final_supply_chain_supplier_inventory.xlsx
+│
+├── utils/
+│   └── zone_mapping.py
+│
+├── requirements.txt
 └── README.md
-```
-
----
 
 ## Installation
 
@@ -227,6 +249,21 @@ Move into the project directory
 ```bash
 cd SupplySense-AI
 ```
+Create a Virtual Environment
+
+```bash
+py -3.12 -m venv .venv
+```
+If Python 3.12 not available 
+
+```bash
+python -m venv .venv
+```
+Activate it
+
+```bash
+.\.venv\Scripts\Activate.ps1
+```
 
 Install the required packages
 
@@ -237,18 +274,18 @@ pip install -r requirements.txt
 Run the backend
 
 ```bash
-cd backend
-uvicorn app:app --reload
+python -m uvicorn backend.main:app --reload
 ```
 
-Open the frontend by launching
+Run the frontend
 
+```bash
+cd SupplySense-AI
+.\.venv\Scripts\Activate.ps1
+python -m http.server 5500 --directory frontend
 ```
-frontend/index.html
-```
-
-or serve it using any local web server.
-
+Open this in browser
+http://127.0.0.1:5500/
 ---
 
 ## Future Improvements
