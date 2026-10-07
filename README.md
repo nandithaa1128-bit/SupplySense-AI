@@ -73,34 +73,42 @@ The current system uses trained models for consumption prediction:
 
 ## Project Workflow
 <img width="2093" height="295" alt="image" src="https://github.com/user-attachments/assets/ee3e5d3c-b450-4491-9010-b09b3e12d028" />
-User Input
-        │
 
-Data Validation
-        │
-        
-Data Preprocessing
-        │
-        
-Feature Engineering
-        │
-        
-Machine Learning Models
-        │
-        
-Consumption Agent
-        │
-        ▼
-Demand Forecasting Agent
-        │
-        
-Inventory Agent
-        │
-        
-Delivery Agent
-        │
-        
-Prediction & Dashboard
+## System Workflow
+
+![SupplySense AI Architecture](path-to-your-image.png)
+
+1. **User Input**
+   - User enters household and consumption details.
+
+2. **Data Validation**
+   - Checks the submitted data for valid and complete values.
+
+3. **Data Preprocessing**
+   - Cleans and transforms the input data.
+
+4. **Feature Engineering**
+   - Converts the input into features required by the ML models.
+
+5. **Machine Learning Models**
+   - Predicts household consumption requirements.
+
+6. **Consumption Agent**
+   - Determines expected consumption of essential grocery items.
+
+7. **Demand Forecasting Agent**
+   - Estimates future grocery demand based on consumption patterns.
+
+8. **Inventory Agent**
+   - Checks supplier inventory and identifies replenishment requirements.
+
+9. **Delivery Agent**
+   - Determines delivery requirements and scheduling.
+
+10. **Prediction & Supplier Dashboard**
+   - Displays predictions, inventory requirements and supply information to the administrator.
+
+## Multi-Agent Architecture
 
 ---
 
