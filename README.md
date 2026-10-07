@@ -200,8 +200,9 @@ The collected data was cleaned, encoded, and transformed before model training.
 - Joblib
 
 ---
-### Project Structure
+## Project Structure
 
+```text
 SupplySense-AI/
 │
 ├── Agents/
