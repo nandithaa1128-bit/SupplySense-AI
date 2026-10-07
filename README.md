@@ -244,7 +244,7 @@ SupplySense-AI/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ## Installation
 
 Clone the repository
