@@ -241,13 +241,13 @@ SupplySense-AI/
 Clone the repository
 
 ```bash
-git clone https://github.com/nandithaa1128-bit/SupplySense-AI.git
+git clone https://github.com/nandithaa1128-bit/SupplySense AI.git
 ```
 
 Move into the project directory
 
 ```bash
-cd SupplySense-AI
+cd SupplySense AI
 ```
 Create a Virtual Environment
 
@@ -280,7 +280,7 @@ python -m uvicorn backend.main:app --reload
 Run the frontend
 
 ```bash
-cd SupplySense-AI
+cd SupplySense AI
 .\.venv\Scripts\Activate.ps1
 python -m http.server 5500 --directory frontend
 ```
